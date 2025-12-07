@@ -1,0 +1,22 @@
+# Composer vendor folder (DO NOT UPLOAD)
+vendor/
+
+# Node modules (if exists)
+node_modules/
+
+# Env files (IMPORTANT)
+.env
+.env.*
+
+# Cache, logs
+/storage/*.key
+/storage/logs/
+bootstrap/cache/
+
+# System / temp files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
