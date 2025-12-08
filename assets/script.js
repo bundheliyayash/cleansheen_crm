@@ -2,13 +2,30 @@ console.log("here");
 
 // Hero Slider JavaScript
 let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const dots = document.querySelectorAll('.dot');
-const totalSlides = slides.length;
-let autoSlideInterval;
+let slides, dots, totalSlides, autoSlideInterval;
+
+// Initialize slider
+function initHeroSlider() {
+    slides = document.querySelectorAll('.hero-slider .slide');
+    dots = document.querySelectorAll('.slider-dots .dot');
+    totalSlides = slides.length;
+
+    if (totalSlides > 0) {
+        startAutoPlay();
+
+        // Pause on hover
+        const heroSlider = document.querySelector('.hero-slider');
+        if (heroSlider) {
+            heroSlider.addEventListener('mouseenter', stopAutoPlay);
+            heroSlider.addEventListener('mouseleave', startAutoPlay);
+        }
+    }
+}
 
 // Initialize auto-play
 function startAutoPlay() {
+    if (totalSlides <= 1) return;
+    stopAutoPlay();
     autoSlideInterval = setInterval(() => {
         changeSlide(1);
     }, 5000); // Change slide every 5 seconds
@@ -16,51 +33,58 @@ function startAutoPlay() {
 
 // Stop auto-play
 function stopAutoPlay() {
-    clearInterval(autoSlideInterval);
+    if (autoSlideInterval) {
+        clearInterval(autoSlideInterval);
+    }
 }
 
 // Change slide
 function changeSlide(direction) {
+    if (!slides || totalSlides === 0) return;
+
     stopAutoPlay();
-    
+
     // Remove active class from current slide
     slides[currentSlide].classList.remove('active');
-    dots[currentSlide].classList.remove('active');
-    
+    if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
+
     // Calculate new slide index
     currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
-    
+
     // Add active class to new slide
     slides[currentSlide].classList.add('active');
-    dots[currentSlide].classList.add('active');
-    
+    if (dots[currentSlide]) dots[currentSlide].classList.add('active');
+
     // Reset animations
     resetAnimations();
-    
+
     startAutoPlay();
 }
 
 // Go to specific slide
 function goToSlide(index) {
+    if (!slides || totalSlides === 0 || index < 0 || index >= totalSlides) return;
+
     stopAutoPlay();
-    
+
     slides[currentSlide].classList.remove('active');
-    dots[currentSlide].classList.remove('active');
-    
+    if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
+
     currentSlide = index;
-    
+
     slides[currentSlide].classList.add('active');
-    dots[currentSlide].classList.add('active');
-    
+    if (dots[currentSlide]) dots[currentSlide].classList.add('active');
+
     resetAnimations();
     startAutoPlay();
 }
 
 // Reset animations for new slide
 function resetAnimations() {
+    if (!slides[currentSlide]) return;
     const activeSlide = slides[currentSlide];
-    const elements = activeSlide.querySelectorAll('.promo-text, .orange-dot, .slide-title, .slide-btn');
-    
+    const elements = activeSlide.querySelectorAll('.promo-text, .orange-dot, .yellow-dot, .slide-title, .slide-btn');
+
     elements.forEach(el => {
         el.style.animation = 'none';
         el.offsetHeight; // Trigger reflow
@@ -68,24 +92,18 @@ function resetAnimations() {
     });
 }
 
-// Start slider on page load
-document.addEventListener('DOMContentLoaded', () => {
-    startAutoPlay();
-});
-
-// Pause on hover (optional)
-const heroSlider = document.querySelector('.hero-slider');
-heroSlider.addEventListener('mouseenter', stopAutoPlay);
-heroSlider.addEventListener('mouseleave', startAutoPlay);
-
 
 // -- video review section 
 
 // ------- reviews slider -------
-document.addEventListener("DOMContentLoaded", () => {
-  let currentReview = 0;
+let reviewAutoInterval;
+
+function initReviewSlider() {
   const reviewSlides = document.getElementById('reviewsSlides');
-  const reviewDots = document.querySelectorAll('.slider-dots .dot');
+  if (!reviewSlides) return;
+
+  let currentReview = 0;
+  const reviewDots = document.querySelectorAll('.testimonials-section .slider-dots .dot');
   const totalReviews = document.querySelectorAll('.review-card').length;
 
   function updateReviewSlider() {
@@ -95,19 +113,31 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function startReviewAuto() {
+    if (reviewAutoInterval) clearInterval(reviewAutoInterval);
+    reviewAutoInterval = setInterval(() => {
+      currentReview = (currentReview + 1) % totalReviews;
+      updateReviewSlider();
+    }, 6000);
+  }
+
   window.changeReview = function(dir) {
-    console.log(dir);
+    if (reviewAutoInterval) clearInterval(reviewAutoInterval);
     currentReview = (currentReview + dir + totalReviews) % totalReviews;
     updateReviewSlider();
+    startReviewAuto();
   }
 
   window.goToReview = function(i) {
+    if (reviewAutoInterval) clearInterval(reviewAutoInterval);
     currentReview = i;
     updateReviewSlider();
+    startReviewAuto();
   }
 
-  setInterval(() => changeReview(1), 6000);
-});
+  updateReviewSlider();
+  startReviewAuto();
+}
 
 
 // ------- video play / pause (2 cards) -------
@@ -151,18 +181,27 @@ function togglePlay(btn) {
       });
 
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const items = document.querySelectorAll('.faq-item');
+// Initialize all on DOM load
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize hero slider
+    initHeroSlider();
 
+    // Initialize review slider
+    initReviewSlider();
+
+    // FAQ accordion
+    const items = document.querySelectorAll('.faq-item');
     items.forEach(item => {
       const btn = item.querySelector('.faq-question');
-      btn.addEventListener('click', () => {
-        // optional: close others for accordion style
-        items.forEach(i => {
-          if (i !== item) i.classList.remove('open');
+      if (btn) {
+        btn.addEventListener('click', () => {
+          // optional: close others for accordion style
+          items.forEach(i => {
+            if (i !== item) i.classList.remove('open');
+          });
+          item.classList.toggle('open');
         });
-        item.classList.toggle('open');
-      });
+      }
     });
   });
 

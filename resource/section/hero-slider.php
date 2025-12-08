@@ -9,7 +9,7 @@
         class="slide-image" />
       <div class="slide-content">
         <p class="promo-text">Window Cleaning from $29</p>
-        <div class="orange-dot"></div>
+        <div class="yellow-dot"></div>
         <h1 class="slide-title">We Clean, You Relax.</h1>
         <a href="#quote" class="slide-btn">Get a Quote</a>
       </div>
@@ -23,7 +23,7 @@
         class="slide-image" />
       <div class="slide-content">
         <p class="promo-text">Deep Cleaning from $49</p>
-        <div class="orange-dot"></div>
+        <div class="yellow-dot"></div>
         <h1 class="slide-title">Spotless Spaces, Happy Faces.</h1>
         <a href="#quote" class="slide-btn">Get a Quote</a>
       </div>
@@ -37,7 +37,7 @@
         class="slide-image" />
       <div class="slide-content">
         <p class="promo-text">Office Cleaning from $99</p>
-        <div class="orange-dot"></div>
+        <div class="yellow-dot"></div>
         <h1 class="slide-title">Professional Clean, Every Time.</h1>
         <a href="#quote" class="slide-btn">Get a Quote</a>
       </div>
