@@ -16,16 +16,6 @@
 
   <!-- Icons + CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <link rel="stylesheet" href="assets/base.css" />
-  <link rel="stylesheet" href="assets/header.css" />
-  <link rel="stylesheet" href="assets/hero.css" />
-  <link rel="stylesheet" href="assets/services.css" />
-  <link rel="stylesheet" href="assets/stats.css" />
-  <link rel="stylesheet" href="assets/why-choose.css" />
-  <link rel="stylesheet" href="assets/testimonials.css" />
-  <link rel="stylesheet" href="assets/areas.css" />
-  <link rel="stylesheet" href="assets/cta.css" />
-  <link rel="stylesheet" href="assets/footer.css" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
