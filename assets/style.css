@@ -3723,9 +3723,9 @@ body{
 
 /* ===== TOP HERO CARDS ===== */
 .wh-hero-cards{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/washroom-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  padding:70px 0 80px;
+  padding:120px 0 180px;
 }
 .wh-hero-bg{
   max-width:1100px;
@@ -3969,9 +3969,9 @@ body{
 
 /* ===== HERO ===== */
 .rest-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/restaurant-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -4306,9 +4306,9 @@ body{
 
 /* HERO */
 .cc-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/carpet-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -4518,7 +4518,7 @@ body{
 }
 
 .office-carpet{
-  background:#9fd4e8;          /* light blue like screenshot */
+  background:#e8f5e9;          /* light blue like screenshot */
   padding:50px 0 55px;
 }
 .office-carpet-inner{
@@ -4563,9 +4563,9 @@ body{
 
 /* HERO */
 .ws-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/washroom-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -4771,7 +4771,7 @@ body{
 /* ========== 1) End of tenancy ========== */
 
 .eot-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/end-of-tenancy-clean.jpg") center center no-repeat;
   background-size:cover;
   padding:80px 0 90px;
   color:#fff;
@@ -4929,7 +4929,7 @@ body{
 /* ========== 2) Domestic ========== */
 
 .domestic-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/Domestic-cleaning.jpg") center center no-repeat;
   background-size:cover;
   padding:80px 0 90px;
   color:#fff;
@@ -5109,6 +5109,7 @@ body{
 }
 .ds-card{
   background:#fff;
+  color: #1b5e20;
   border-radius:10px;
   padding:16px 12px 18px;
   box-shadow:0 6px 18px rgba(0,0,0,0.07);
@@ -5165,9 +5166,9 @@ body{
 /* HERO */
 
 .ab-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/cleanup-image.jpg") center center no-repeat;
   background-size:cover;
-  padding:80px 0 90px;
+  padding:180px 0 200px;
   color:#fff;
 }
 .ab-hero-overlay{
@@ -5299,9 +5300,9 @@ body{
 /* HERO + GREEN STRIP */
 
 .carp-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/carpet-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  padding:80px 0 80px;
+  padding:160px 0 200px;
   color:#fff;
 }
 .carp-hero-overlay{
@@ -5459,9 +5460,9 @@ body{
 /* HERO */
 
 .eco-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/eco-friendly-cleaning.jpg") center center no-repeat;
   background-size:cover;
-  padding:90px 0 90px;
+  padding:180px 0 200px;
   color:#fff;
 }
 .eco-hero-overlay{
@@ -5677,7 +5678,7 @@ body{
 
 
 .hk-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/housekeeping-services.jpg") center center no-repeat;
   background-size:cover;
   padding:90px 0 90px;
   color:#fff;
@@ -5861,7 +5862,7 @@ body{
 
 
 .mt-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/mattress-cleaning.jpg") center center no-repeat;
   background-size:cover;
   padding:90px 0 90px;
   color:#fff;
@@ -5964,7 +5965,7 @@ body{
 /* HERO */
 
 .oneoff-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/domestic-cleaning-scaled.jpg") center center no-repeat;
   background-size:cover;
   padding:90px 0 90px;
   color:#fff;

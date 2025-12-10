@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -104,7 +106,8 @@
                     </div>
                 </div>
                 <div class="wh-intro-image">
-                    <img src="assets/images/warehouse-cleaning.jpg" alt="Warehouse cleaning staff">
+                    <img src="<?php echo BASE_URL . 'includes/image/warehouse-man.png' ?>"
+                        alt="Warehouse cleaning staff">
                 </div>
             </div>
         </div>

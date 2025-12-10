@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -134,10 +136,10 @@
 
             <!-- Images row -->
             <div class="cm-images">
-                <img src="assets/images/carpet-before1.jpg" alt="Carpet before cleaning">
-                <img src="assets/images/carpet-after1.jpg" alt="Carpet after cleaning">
-                <img src="assets/images/carpet-after2.jpg" alt="Cleaned carpet pattern">
-                <img src="assets/images/carpet-after3.jpg" alt="Clean office carpet">
+                <img src="<?php echo BASE_URL . 'includes/image/messy-carper.jpg' ?>" alt="Carpet before cleaning">
+                <img src="<?php echo BASE_URL . 'includes/image/after-carpet.webp' ?>" alt="Carpet after cleaning">
+                <img src="<?php echo BASE_URL . 'includes/image/clean-carpet.jpg' ?>" alt="Cleaned carpet pattern">
+                <img src="<?php echo BASE_URL . 'includes/image/clean-off-carpet.jpg' ?>" alt="Clean office carpet">
             </div>
         </div>
     </section>
@@ -157,7 +159,8 @@
             </div>
 
             <div class="oc-image">
-                <img src="assets/images/office-carpet.jpg" alt="Clean office carpet and chairs">
+                <img src="<?php echo BASE_URL . 'includes/image/clean-carpet.jpg' ?>"
+                    alt="Clean office carpet and chairs">
             </div>
         </div>
     </section>

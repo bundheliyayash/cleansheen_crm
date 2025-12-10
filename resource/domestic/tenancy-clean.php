@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -27,7 +29,7 @@
     <!-- 1.1 Hero + top 3 cards -->
     <section class="eot-hero">
         <div class="eot-hero-overlay">
-            <h1>End of Tenancy Cleaning</h1>
+            <h1 class="dom-hero-card">End of Tenancy Cleaning</h1>
 
             <div class="eot-hero-cards">
                 <div class="eot-hero-card">

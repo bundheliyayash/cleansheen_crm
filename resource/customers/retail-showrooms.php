@@ -12,8 +12,11 @@
         <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+            rel="stylesheet" />
 
         <!-- Icons + CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -27,7 +30,7 @@
         <section class="sector-section">
             <div class="sector-inner">
                 <div class="sector-image">
-                    <img src="assets/images/retail-showrooms.jpg" alt="Retail showrooms in Gujarat">
+                    <img src="<?php echo BASE_URL . 'includes/image/retail.jpg' ?>" alt="Retail showrooms in Gujarat">
                 </div>
                 <div class="sector-text">
                     <h2>Retail Store &amp; Showroom Cleaning – Gujarat</h2>

@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -27,7 +29,7 @@
     <!-- 2.1 Hero + 3 cards -->
     <section class="domestic-hero">
         <div class="domestic-hero-overlay">
-            <h1>Domestic Cleaning Services</h1>
+            <h1 class="dom-hero-card">Domestic Cleaning Services</h1>
 
             <div class="dom-hero-cards">
                 <div class="dom-hero-card">

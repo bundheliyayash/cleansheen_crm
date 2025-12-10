@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -27,7 +29,8 @@
     <section class="sector-section sector-section--alt">
         <div class="sector-inner">
             <div class="sector-image">
-                <img src="assets/images/education.jpg" alt="Schools and colleges in Gujarat">
+                <img src="<?php echo BASE_URL . 'includes/image/education-cleaning.jpg' ?>"
+                    alt="Schools and colleges in Gujarat">
             </div>
             <div class="sector-text">
                 <h2>School &amp; Education Cleaning – Gujarat</h2>

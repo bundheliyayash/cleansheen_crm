@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -51,7 +53,8 @@
     <section class="ws-blue">
         <div class="ws-blue-row ws-row-top">
             <div class="ws-image">
-                <img src="assets/images/washroom-sani.jpg" alt="Sanitary bins and hygiene products">
+                <img src="<?php echo BASE_URL . 'includes/image/Sanitary-Bins.jpg' ?>"
+                    alt="Sanitary bins and hygiene products">
             </div>
 
             <div class="ws-text">
@@ -86,7 +89,7 @@
             </div>
 
             <div class="ws-image">
-                <img src="assets/images/washroom-hands.jpg" alt="Hand washing in washroom">
+                <img src="<?php echo BASE_URL . 'includes/image/hand-clean.webp'?>" alt="Hand washing in washroom">
             </div>
 
             <div class="ws-col">
