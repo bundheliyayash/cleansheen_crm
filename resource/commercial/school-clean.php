@@ -85,7 +85,7 @@
             </div>
 
             <div class="school-trusted-image">
-                <img src="assets/images/school-trusted.jpg" alt="School cleaning staff">
+                <img src="<?php echo BASE_URL . 'includes/image/school-staff.jpg'?>" alt="School cleaning staff">
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
                 </p>
             </div>
             <div class="school-vetted-image">
-                <img src="assets/images/school-vetted.jpg" alt="Classroom cleaning">
+                <img src="<?php echo BASE_URL . 'includes/image/school-cleaning.jpg'?>" alt="Classroom cleaning">
             </div>
         </div>
     </section>
@@ -146,7 +146,7 @@
     <section class="school-tailored">
         <div class="school-tailored-inner">
             <div class="school-tailored-image">
-                <img src="assets/images/school-dining.jpg" alt="School dining hall">
+                <img src="<?php echo BASE_URL . '/includes/image/dinning-clean.jpg'?>" alt="School dining hall">
             </div>
             <div class="school-tailored-text">
                 <h2>Tailored and Eco‑Friendly School Cleaning Services</h2>

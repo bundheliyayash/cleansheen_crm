@@ -28,7 +28,7 @@
         <!-- Right: static map image -->
         <div class="areas-map">
           <!-- apni attached image ko /images/surat-area-map.jpg ke naam se save karo -->
-          <img src="includes/image/image.png" alt="Surat service area map" />
+          <img src="<?php echo BASE_URL . 'includes/image/image.png'?>" alt="Surat service area map" />
         </div>
       </div>
     </div>

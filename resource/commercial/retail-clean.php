@@ -105,7 +105,7 @@
 
             <div class="retail-image">
                 <!-- apni retail cleaning photo ka path yahan lagao -->
-                <img src="assets/images/retail-cleaning.jpg" alt="Retail cleaning staff at work">
+                <img src="<?php echo BASE_URL . 'includes/image/retail-cleaners.jpg'?>" alt="Retail cleaning staff at work">
             </div>
         </div>
     </section>
@@ -114,7 +114,7 @@
     <section class="retail-info-cards">
         <div class="retail-info-inner">
 
-            <div class="retail-card">
+            <div class="feature-card">
                 <h3>What Our Retail Cleaning Covers</h3>
                 <p>
                     Retail cleaning is important for keeping your shop or showroom both clean and safe. Even a small
@@ -137,7 +137,7 @@
                 </p>
             </div>
 
-            <div class="retail-card">
+            <div class="feature-card">
                 <h3>Legal Requirements for Retailers</h3>
                 <p>
                     Retail environments must meet basic health and safety standards. Our cleaning routines help you
@@ -184,7 +184,7 @@
     <!-- ========== 3. TWO BULLET LIST COLUMNS ========== -->
     <section class="retail-lists">
         <div class="retail-lists-inner">
-            <div class="retail-list-block">
+            <div class="retail-list-block feature-card light">
                 <h3>Retail businesses we work with</h3>
                 <ul>
                     <li>Independent stores</li>
@@ -196,7 +196,7 @@
                 </ul>
             </div>
 
-            <div class="retail-list-block">
+            <div class="retail-list-block feature-card light">
                 <h3>What can our retail cleaning include?</h3>
                 <ul>
                     <li>Shop floors</li>

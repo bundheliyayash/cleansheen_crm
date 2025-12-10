@@ -24,24 +24,27 @@
 
     <?php include ROOT_PATH . 'resource/header.php'; ?>
 
-    <section class="deep-intro">
-        <div class="deep-intro-inner">
-            <h2>Office Deep Cleaning</h2>
+    <section class="deep-hero">
+        <div class="deep-hero-overlay">
+            <div class="deep-hero-grid">
+                <div class="deep-hero-card">
+                    <div class="dhc-icon"><i class="fas fa-building"></i></div>
+                    <h3>Great First Impression</h3>
+                    <p>Create a clean, professional look for both your customers and your team.</p>
+                </div>
 
-            <p>
-                Whether your office is running on minimum staff or temporarily empty, it’s the perfect time for
-                a professional deep clean. Our team can give you the very best deep cleaning service tailored
-                to your workspace.
-            </p>
-            <p>
-                We clean every inch of your office so it is not only spotless but also hygienic and safe for
-                your staff and visitors. We use antiviral products as standard and follow a detailed checklist
-                to make sure nothing is missed.
-            </p>
-            <p>
-                We also provide additional disinfection and carpet cleaning options for office customers who
-                want extra protection against germs and viruses.
-            </p>
+                <div class="deep-hero-card">
+                    <div class="dhc-icon"><i class="fas fa-clock"></i></div>
+                    <h3>Flexible Times &amp; Schedules</h3>
+                    <p>Early mornings, evenings or weekends – we work around your office hours.</p>
+                </div>
+
+                <div class="deep-hero-card">
+                    <div class="dhc-icon"><i class="fas fa-smile-beam"></i></div>
+                    <h3>Happy Cleaners</h3>
+                    <p>Trained, reliable staff who are respected and motivated to do their best work.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -93,27 +96,24 @@
         </div>
     </section>
 
-    <section class="deep-hero">
-        <div class="deep-hero-overlay">
-            <div class="deep-hero-grid">
-                <div class="deep-hero-card">
-                    <div class="dhc-icon"><i class="fas fa-building"></i></div>
-                    <h3>Great First Impression</h3>
-                    <p>Create a clean, professional look for both your customers and your team.</p>
-                </div>
+    <section class="deep-intro">
+        <div class="deep-intro-inner">
+            <h2>Office Deep Cleaning</h2>
 
-                <div class="deep-hero-card">
-                    <div class="dhc-icon"><i class="fas fa-clock"></i></div>
-                    <h3>Flexible Times &amp; Schedules</h3>
-                    <p>Early mornings, evenings or weekends – we work around your office hours.</p>
-                </div>
-
-                <div class="deep-hero-card">
-                    <div class="dhc-icon"><i class="fas fa-smile-beam"></i></div>
-                    <h3>Happy Cleaners</h3>
-                    <p>Trained, reliable staff who are respected and motivated to do their best work.</p>
-                </div>
-            </div>
+            <p>
+                Whether your office is running on minimum staff or temporarily empty, it’s the perfect time for
+                a professional deep clean. Our team can give you the very best deep cleaning service tailored
+                to your workspace.
+            </p>
+            <p>
+                We clean every inch of your office so it is not only spotless but also hygienic and safe for
+                your staff and visitors. We use antiviral products as standard and follow a detailed checklist
+                to make sure nothing is missed.
+            </p>
+            <p>
+                We also provide additional disinfection and carpet cleaning options for office customers who
+                want extra protection against germs and viruses.
+            </p>
         </div>
     </section>
 

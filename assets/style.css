@@ -1432,7 +1432,10 @@ header {
     margin-top:20px;
     position: relative;
 }
-.reviews-track{overflow:hidden;}
+.reviews-track{
+  overflow:hidden;
+  border-radius: 24px ;
+}
 .reviews-slides{
     display:flex;
     transition:transform .5s ease;
@@ -1660,7 +1663,7 @@ header {
 
 /* background image (leaf style) */
 .cta-section{
-  background:url("https://via.placeholder.com/1920x400/e8f5e9/1b5e20?text=Section+Background") center bottom no-repeat;
+  background:url("../includes/image/leaf-green.jpeg") center bottom no-repeat;
   background-size:cover;        /* responsive image [web:169] */
 }
 
@@ -1959,7 +1962,7 @@ header {
 
 /* ===== OFFICE HERO STRIP (TOP) ===== */
 .office-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("/includes/image/office-clean.png") center center no-repeat;
   background-size:cover;              /* full width image [web:206][web:212] */
   padding:80px 0;
   position:relative;
@@ -2243,7 +2246,8 @@ body{
 
 .office-intro,
 .deep-intro{
-  background:#ffffff;
+  background:   #ffffff;
+  /* background:var(--green-main); */
   padding:70px 0 50px;
 }
 .office-intro-inner,
@@ -2383,9 +2387,9 @@ body{
 
 .office-hero,
 .deep-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/office-clean.png") center center no-repeat;
   background-size:cover;
-  padding:80px 0 40px;
+  padding:180px 0 90px;
 }
 .deep-hero-overlay,
 .office-hero-overlay{
@@ -2689,9 +2693,9 @@ body{
 
 /* ===== HERO BANNER ===== */
 .retail-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/retail-clean.png") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   position:relative;
   display:flex;
   align-items:center;
@@ -3019,9 +3023,9 @@ body{
 /* gym clening service  */
 /* ===== HERO ===== */
 .gym-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/gym-cleaning.png") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -3148,6 +3152,7 @@ body{
   font-size:14px;
   color:#444;
   line-height:1.8;
+  list-style: disc outside;
 }
 .gym-services-right p{
   font-size:14px;
@@ -3187,9 +3192,9 @@ body{
 
 /* ===== HERO ===== */
 .temple-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/temple-cleninh.png") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:500px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -3383,9 +3388,9 @@ body{
 
 /* 1 HERO */
 .school-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/school-cleaning-hero.png") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -5036,7 +5041,7 @@ body{
 /* ========== 3) Deep cleaning ========== */
 
 .deep-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/office-deep.png") center center no-repeat;
   background-size:cover;
   padding:80px 0 90px;
   color:#fff;
@@ -5086,7 +5091,8 @@ body{
 
 /* deep services cards */
 .deep-services{
-  background:var(--green-light);
+  /* background:var(--green-light); */
+  background:var(--green-main);
   padding:50px 0 55px;
 }
 .deep-services-inner{

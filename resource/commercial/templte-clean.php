@@ -75,7 +75,7 @@
 
             <div class="temple-main-layout">
                 <div class="temple-photo">
-                    <img src="assets/images/temple-cleaning.jpg" alt="Temple cleaning services">
+                    <img src="<?php echo BASE_URL . 'includes/image/temple-clean.png'?>" alt="Temple cleaning services">
                     <p class="temple-photo-caption">Temple Cleaning Services in Gujarat</p>
                 </div>
 
