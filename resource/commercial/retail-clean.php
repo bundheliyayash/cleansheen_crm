@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -105,7 +107,8 @@
 
             <div class="retail-image">
                 <!-- apni retail cleaning photo ka path yahan lagao -->
-                <img src="<?php echo BASE_URL . 'includes/image/retail-cleaners.jpg'?>" alt="Retail cleaning staff at work">
+                <img src="<?php echo BASE_URL . 'includes/image/retail-cleaners.jpg'?>"
+                    alt="Retail cleaning staff at work">
             </div>
         </div>
     </section>
@@ -123,7 +126,7 @@
                 <p>
                     Our retail cleaning services cover all essential areas of a store. Typically this includes:
                 </p>
-                <ul>
+                <ul class="styled-list">
                     <li>Cleaning staff kitchen and break areas</li>
                     <li>Cleaning public and staff washrooms</li>
                     <li>Hoovering, mopping and other floor cleaning</li>
@@ -186,7 +189,7 @@
         <div class="retail-lists-inner">
             <div class="retail-list-block feature-card light">
                 <h3>Retail businesses we work with</h3>
-                <ul>
+                <ul class="styled-list">
                     <li>Independent stores</li>
                     <li>Supermarkets</li>
                     <li>Shopping centres &amp; complexes</li>
@@ -196,9 +199,9 @@
                 </ul>
             </div>
 
-            <div class="retail-list-block feature-card light">
+            <div class=" retail-list-block feature-card light">
                 <h3>What can our retail cleaning include?</h3>
-                <ul>
+                <ul class="styled-list">
                     <li>Shop floors</li>
                     <li>Washroom facilities</li>
                     <li>Backrooms &amp; warehouses</li>

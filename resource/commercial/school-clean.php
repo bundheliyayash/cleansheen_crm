@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -95,7 +97,7 @@
         <div class="school-vetted-inner">
             <div class="school-vetted-text">
                 <h2>Vetted and Background‑Checked Cleaning Staff</h2>
-                <ul>
+                <ul class="styled-list">
                     <li>In‑person interviews for all cleaners</li>
                     <li>Background checks suitable for working with children</li>
                     <li>Training focused on working safely in schools</li>
@@ -120,7 +122,7 @@
             <div class="school-included-grid">
                 <div>
                     <h3>Our School Cleaning Includes</h3>
-                    <ul>
+                    <ul class="styled-list">
                         <li>Regular daily cleaning during term</li>
                         <li>End‑of‑term and holiday deep cleans</li>
                         <li>Communal area and corridor cleaning</li>
@@ -130,7 +132,7 @@
                 </div>
                 <div>
                     <h3>Areas We Can Clean</h3>
-                    <ul>
+                    <ul class="styled-list">
                         <li>Classrooms and lecture rooms</li>
                         <li>Offices, staff rooms and reception</li>
                         <li>Assembly halls and sports halls</li>

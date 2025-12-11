@@ -1242,14 +1242,18 @@ header {
     background: linear-gradient(145deg, #1b5e20 0%, #2e7d32 100%);
     border-radius: 15px;
     padding: 35px 25px;
-    text-align: center;
+    text-align: start;
     position: relative;
     overflow: hidden;
     transition: all 0.4s ease;
     min-height: 220px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.feature-card h4{
+  color: white;
 }
 
 .feature-card:hover {
@@ -2999,6 +3003,8 @@ body{
   font-family:'Playfair Display',serif;
   color:#084d2b;
   margin-bottom:10px;
+      padding-left:18px;
+
 }
 .retail-list-block ul{
   margin:0;
@@ -3006,6 +3012,7 @@ body{
   font-size:14px;
   color:#444;
   line-height:1.8;
+  justify-items:flex-start;
 }
 .retail-list-block li{
   margin-bottom:4px;
@@ -3088,7 +3095,7 @@ body{
 /* ===== INTRO TEXT ===== */
 .gym-intro{
   background:#ffffff;
-  padding:60px 0 40px;
+  padding:60px 0 20px;
 }
 .gym-intro-inner{
   max-width:900px;
@@ -3105,8 +3112,8 @@ body{
 
 /* ===== IMPRESS YOUR MEMBERS BLOCK ===== */
 .gym-impress{
-  background:#e8f5e9;
-  padding:60px 0 60px;
+  /* background:#e8f5e9; */
+  padding:0px 0 60px;
 }
 .gym-impress-inner{
   max-width:900px;
@@ -3130,7 +3137,7 @@ body{
 /* ===== GYM SERVICE LIST (BLUE STRIP) ===== */
 .gym-services{
   background:#e8f5e9;
-  padding:0 0 65px;
+  padding:20px 0 20px;
 }
 .gym-services-inner{
   max-width:1100px;
@@ -3145,6 +3152,7 @@ body{
   font-size:18px;
   color:#084d2b;
   margin-bottom:10px;
+  padding-left: 18px;
 }
 .gym-services-left ul{
   margin:0;
@@ -3329,6 +3337,7 @@ body{
   font-size:18px;
   color:#084d2b;
   margin-bottom:10px;
+  padding-left: 18px;
 }
 .temple-extra-block ul{
   margin:0;
@@ -3339,12 +3348,21 @@ body{
 }
 .temple-extra-block li{
   margin-bottom:4px;
+  color: #555;
 }
 .temple-extra-block p{
   font-size:14px;
   color:#555;
   line-height:1.9;
   margin-bottom:8px;
+  padding-left: 18px;
+}
+
+.temple-extra-block .styled-list li{
+  color: #555;
+}
+.temple-extra-block .styled-list li::before{
+  color: #555;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -3548,6 +3566,10 @@ body{
   color:#555;
   line-height:1.9;
 }
+.school-vetted-text ul li,
+.school-vetted-text ul li::before{
+  color: #555;
+}
 .school-vetted-image img{
   width:100%;
   border-radius:10px;
@@ -3580,6 +3602,7 @@ body{
   font-size:16px;
   color:var(--green-dark);
   margin-bottom:8px;
+  padding-left:18px;
 }
 .school-included-grid ul{
   margin:0;
@@ -3587,6 +3610,11 @@ body{
   font-size:14px;
   color:#444;
   line-height:1.8;
+}
+
+.school-included-grid ul li,
+.school-included-grid ul li::before{
+  color: #555;
 }
 
 /* 6 TAILORED BLOCK */
@@ -3723,7 +3751,7 @@ body{
 
 /* ===== TOP HERO CARDS ===== */
 .wh-hero-cards{
-  background:url("../includes/image/washroom-cleaning.jpg") center center no-repeat;
+  background:url("../includes/image/warehouse-cleaning.jpg") center center no-repeat;
   background-size:cover;
   padding:120px 0 180px;
 }
@@ -4648,7 +4676,7 @@ body{
   font-size:14px;
   color:#555;
   line-height:1.9;
-  margin-bottom:8px;
+  margin-bottom:15px;
 }
 .ws-text ul,
 .ws-col ul{
@@ -4658,6 +4686,12 @@ body{
   color:#444;
   line-height:1.8;
 }
+.ws-col ul li,.ws-col ul li::before,
+.ws-text ul li,.ws-text ul li::before{
+  color: #555;
+}
+
+
 .btn-solid{
   display:inline-flex;
   align-items:center;
@@ -5033,7 +5067,7 @@ body{
   gap:20px;
 }
 .dt-card{
-  background:#f7fbfd;
+  background: linear-gradient(135deg,#f8faf8 0%,#e8f5e9 100%);
   border-radius:10px;
   padding:18px 14px;
 }
@@ -5860,6 +5894,34 @@ body{
   box-shadow:var(--shadow-soft);
 }
 
+.styled-list {
+    list-style: none;      /* default dot remove */
+    padding-left: 0;
+    margin-left: 20px;
+    margin: 25px 0px;
+}
+
+.styled-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.styled-list li::before {
+    content: "•";          /* custom dot */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;            /* <-- yahan apna color lagao */
+    font-size: 20px;
+    line-height: 1;
+}
+
+
+.gym-services-left .styled-list li::before{
+  color: #555;
+}
 
 .mt-hero{
   background:url("../includes/image/mattress-cleaning.jpg") center center no-repeat;

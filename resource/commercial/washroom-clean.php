@@ -64,7 +64,7 @@
                     visitors.
                 </p>
                 <h3>Service highlights include:</h3>
-                <ul>
+                <ul class="styled-list">
                     <li>No minimum contract requirement</li>
                     <li>Installation and regular servicing of bins</li>
                     <li>Safe waste removal and replacement liners each visit</li>
@@ -78,7 +78,7 @@
         <div class="ws-blue-row ws-row-bottom">
             <div class="ws-col">
                 <h3>Additional washroom services</h3>
-                <ul>
+                <ul class="styled-list">
                     <li>Air freshener systems</li>
                     <li>Air purification units</li>
                     <li>Electric hand dryers</li>

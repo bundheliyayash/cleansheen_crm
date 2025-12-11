@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -65,7 +67,8 @@
                     <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h3>Independent Family Business</h3>
                     <p>
-                        Local, reliable cleaning teams based close to your office sites for quick response and consistency.
+                        Local, reliable cleaning teams based close to your office sites for quick response and
+                        consistency.
                     </p>
                 </div>
 
@@ -73,7 +76,8 @@
                     <div class="os-icon"><i class="fas fa-sync-alt"></i></div>
                     <h3>Replacement &amp; Sickness Cover</h3>
                     <p>
-                        If your regular cleaner is away, we organise cover so you always receive an uninterrupted service.
+                        If your regular cleaner is away, we organise cover so you always receive an uninterrupted
+                        service.
                     </p>
                 </div>
 
@@ -81,7 +85,8 @@
                     <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h3>No Hidden Costs</h3>
                     <p>
-                        Transparent pricing with all agreed tasks included. Extra charges only when you request extra work.
+                        Transparent pricing with all agreed tasks included. Extra charges only when you request extra
+                        work.
                     </p>
                 </div>
 
@@ -97,7 +102,8 @@
                     <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h3>Affordable</h3>
                     <p>
-                        Cost‑effective office cleaning plans designed to work with tight budgets without cutting quality.
+                        Cost‑effective office cleaning plans designed to work with tight budgets without cutting
+                        quality.
                     </p>
                 </div>
             </div>
@@ -184,7 +190,7 @@
     <?php include ROOT_PATH .'resource/section/testimonials-section.php'; ?>
     <?php include ROOT_PATH .'resource/section/areas-section.php'; ?>
     <?php include ROOT_PATH .'resource/section/cta-section.php'; ?>
-    
+
     <?php include ROOT_PATH . 'resource/footer.php'; ?>
 
     <script src="<?php echo BASE_URL; ?>assets/script.js"></script>

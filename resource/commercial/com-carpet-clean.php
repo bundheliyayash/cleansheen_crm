@@ -91,49 +91,49 @@
     <section class="carpet-methods">
         <div class="carpet-methods-inner">
             <h2>Our Carpet Commercial Cleaning Methods</h2>
+            <div style="border: 1px solid #f6f2f7; padding:0 25px;">
+                <!-- Tabs -->
+                <div class="cm-tabs">
+                    <button class="cm-tab active" data-target="#steam">Steam Carpet Cleaning</button>
+                    <button class="cm-tab" data-target="#dry">Dry Cleaning Method</button>
+                </div>
 
-            <!-- Tabs -->
-            <div class="cm-tabs">
-                <button class="cm-tab active" data-target="#steam">Steam Carpet Cleaning</button>
-                <button class="cm-tab" data-target="#dry">Dry Cleaning Method</button>
+                <!-- Steam method -->
+                <div id="steam" class="cm-panel active">
+                    <h3>Steam Carpet Cleaning</h3>
+                    <p>Short intro text about steam / hot water extraction method.</p>
+
+                    <h4>Step 1: Survey and vacuum clean</h4>
+                    <p>Explain survey and pre‑vacuum.</p>
+
+                    <h4>Step 2: Carpet cleaning</h4>
+                    <p>Explain injection / extraction process.</p>
+
+                    <h4>Step 3: Stain protection</h4>
+                    <p>Optional stain guard for high‑traffic areas.</p>
+
+                    <h4>Step 4: Drying and ventilation</h4>
+                    <p>Carpet mostly dry after clean; extra ventilation time if needed.</p>
+                </div>
+
+                <!-- Dry method -->
+                <div id="dry" class="cm-panel">
+                    <h3>Dry Carpet Cleaning Method</h3>
+                    <p>Short intro text about low‑moisture, powder‑based cleaning.</p>
+
+                    <h4>Step 1: Survey and vacuum clean</h4>
+                    <p>Assessment and dry vacuum to remove loose soil.</p>
+
+                    <h4>Step 2: Applying the powder</h4>
+                    <p>Biodegradable compound spread evenly over the carpet.</p>
+
+                    <h4>Step 3: Carpet cleaning</h4>
+                    <p>Rotary brush works powder into fibres to loosen dirt.</p>
+
+                    <h4>Step 4: Removing residue</h4>
+                    <p>Industrial vacuum removes powder and lifted soil.</p>
+                </div>
             </div>
-
-            <!-- Steam method -->
-            <div id="steam" class="cm-panel active">
-                <h3>Steam Carpet Cleaning</h3>
-                <p>Short intro text about steam / hot water extraction method.</p>
-
-                <h4>Step 1: Survey and vacuum clean</h4>
-                <p>Explain survey and pre‑vacuum.</p>
-
-                <h4>Step 2: Carpet cleaning</h4>
-                <p>Explain injection / extraction process.</p>
-
-                <h4>Step 3: Stain protection</h4>
-                <p>Optional stain guard for high‑traffic areas.</p>
-
-                <h4>Step 4: Drying and ventilation</h4>
-                <p>Carpet mostly dry after clean; extra ventilation time if needed.</p>
-            </div>
-
-            <!-- Dry method -->
-            <div id="dry" class="cm-panel">
-                <h3>Dry Carpet Cleaning Method</h3>
-                <p>Short intro text about low‑moisture, powder‑based cleaning.</p>
-
-                <h4>Step 1: Survey and vacuum clean</h4>
-                <p>Assessment and dry vacuum to remove loose soil.</p>
-
-                <h4>Step 2: Applying the powder</h4>
-                <p>Biodegradable compound spread evenly over the carpet.</p>
-
-                <h4>Step 3: Carpet cleaning</h4>
-                <p>Rotary brush works powder into fibres to loosen dirt.</p>
-
-                <h4>Step 4: Removing residue</h4>
-                <p>Industrial vacuum removes powder and lifted soil.</p>
-            </div>
-
             <!-- Images row -->
             <div class="cm-images">
                 <img src="<?php echo BASE_URL . 'includes/image/messy-carper.jpg' ?>" alt="Carpet before cleaning">

@@ -53,22 +53,27 @@
         <div class="domestic-features-inner">
             <div class="domestic-features-grid">
                 <div>
+                    <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h4>Local Family Business</h4>
                     <p>Local staff who know the area.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fa fas fa-sync-alt"></i></div>
                     <h4>Flexible Times</h4>
                     <p>Mornings, evenings and weekends.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Flexible Tasks</h4>
                     <p>Ironing, bed changing and more.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-user-shield"></i></div>
                     <h4>No Extra Charges</h4>
                     <p>All fees confirmed before we start.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h4>Happy Cleaners</h4>
                     <p>Fair pay and ongoing training.</p>
                 </div>
@@ -119,19 +124,39 @@
             <div class="domestic-tasks-grid">
                 <div class="dt-card">
                     <h3>Kitchen</h3>
-                    <p>Worktops, appliances, cupboard fronts, sink and floors.</p>
+                    <div>
+                        <img src="<?php echo BASE_URL . 'includes/image/kitchen-cleaning-2.jpg' ?>" alt=""
+                            height="200px" width="200px">
+                    </div>
+                    <p>Clean worktop Wipe kitchen appliances Wash dishes or load dishwasher Put dishes away Empty bins
+                        Hoover and mop floor</p>
                 </div>
                 <div class="dt-card">
                     <h3>Bedroom</h3>
-                    <p>Dusting, bed making, mirrors and vacuuming.</p>
+                    <div>
+                        <img src="<?php echo BASE_URL . 'includes/image/bedroom-cleaning.jpg' ?>" alt="" height="200px"
+                            width="200px">
+                    </div>
+                    <p>Dust all surfaces Make bed Change bed linen if requested Dust blinds Remove cobwebs Empty bins
+                        Hoover and mop floor</p>
                 </div>
                 <div class="dt-card">
                     <h3>Bathroom</h3>
-                    <p>Toilets, showers, tiles and glass cleaned and sanitised.</p>
+                    <div>
+                        <img src="<?php echo BASE_URL . 'includes/image/bathroom-cleaning.jpg' ?>" alt="" height="200px"
+                            width="200px">
+                    </div>
+                    <p>Clean shower cabin and bath sink Clean toilet and seat Clean tiles Clean cabinets Empty bins
+                        Hoover and mop floors</p>
                 </div>
                 <div class="dt-card">
                     <h3>Living &amp; Hall</h3>
-                    <p>Surfaces, skirting, picture frames and floors.</p>
+                    <div>
+                        <img src="<?php echo BASE_URL . 'includes/image/domestic-clean-1.jpg' ?>" alt="" height="200px"
+                            width="200px">
+                    </div>
+                    <p>Clean surfaces Clean and dust furniture Clean windows and sills Clean all glass surfaces Hoover
+                        and mop floors Remove cobwebs Dust picture frames</p>
                 </div>
             </div>
         </div>
@@ -143,7 +168,7 @@
 
     <?php include ROOT_PATH . 'resource/footer.php'; ?>
 
-    <script src="<?php echo BASE_URL; ?>assets/script.js"></script>
+    <script src=" <?php echo BASE_URL; ?>assets/script.js"></script>
 </body>
 
 </html><a href=""></a>

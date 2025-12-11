@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -98,11 +100,11 @@
         <div class="gym-services-inner">
             <div class="gym-services-left">
                 <h3>Our gym cleaning service includes:</h3>
-                <ul>
-                    <li>Gym areas and exercise equipment</li>
-                    <li>Locker rooms and changing areas</li>
-                    <li>Toilets, showers, sinks and urinals</li>
-                    <li>Studios and class rooms</li>
+                <ul class="styled-list">
+                    <li style="color:#555;">Gym areas and exercise equipment</li>
+                    <li style="color:#555;">Locker rooms and changing areas</li>
+                    <li style="color:#555;">Toilets, showers, sinks and urinals</li>
+                    <li style="color:#555;">Studios and class rooms</li>
                 </ul>
             </div>
 
