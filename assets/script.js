@@ -6,90 +6,90 @@ let slides, dots, totalSlides, autoSlideInterval;
 
 // Initialize slider
 function initHeroSlider() {
-    slides = document.querySelectorAll('.hero-slider .slide');
-    dots = document.querySelectorAll('.slider-dots .dot');
-    totalSlides = slides.length;
+  slides = document.querySelectorAll('.hero-slider .slide');
+  dots = document.querySelectorAll('.slider-dots .dot');
+  totalSlides = slides.length;
 
-    if (totalSlides > 0) {
-        startAutoPlay();
+  if (totalSlides > 0) {
+    startAutoPlay();
 
-        // Pause on hover
-        const heroSlider = document.querySelector('.hero-slider');
-        if (heroSlider) {
-            heroSlider.addEventListener('mouseenter', stopAutoPlay);
-            heroSlider.addEventListener('mouseleave', startAutoPlay);
-        }
+    // Pause on hover
+    const heroSlider = document.querySelector('.hero-slider');
+    if (heroSlider) {
+      heroSlider.addEventListener('mouseenter', stopAutoPlay);
+      heroSlider.addEventListener('mouseleave', startAutoPlay);
     }
+  }
 }
 
 // Initialize auto-play
 function startAutoPlay() {
-    if (totalSlides <= 1) return;
-    stopAutoPlay();
-    autoSlideInterval = setInterval(() => {
-        changeSlide(1);
-    }, 5000); // Change slide every 5 seconds
+  if (totalSlides <= 1) return;
+  stopAutoPlay();
+  autoSlideInterval = setInterval(() => {
+    changeSlide(1);
+  }, 5000); // Change slide every 5 seconds
 }
 
 // Stop auto-play
 function stopAutoPlay() {
-    if (autoSlideInterval) {
-        clearInterval(autoSlideInterval);
-    }
+  if (autoSlideInterval) {
+    clearInterval(autoSlideInterval);
+  }
 }
 
 // Change slide
 function changeSlide(direction) {
-    if (!slides || totalSlides === 0) return;
+  if (!slides || totalSlides === 0) return;
 
-    stopAutoPlay();
+  stopAutoPlay();
 
-    // Remove active class from current slide
-    slides[currentSlide].classList.remove('active');
-    if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
+  // Remove active class from current slide
+  slides[currentSlide].classList.remove('active');
+  if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
 
-    // Calculate new slide index
-    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+  // Calculate new slide index
+  currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
 
-    // Add active class to new slide
-    slides[currentSlide].classList.add('active');
-    if (dots[currentSlide]) dots[currentSlide].classList.add('active');
+  // Add active class to new slide
+  slides[currentSlide].classList.add('active');
+  if (dots[currentSlide]) dots[currentSlide].classList.add('active');
 
-    // Reset animations
-    resetAnimations();
+  // Reset animations
+  resetAnimations();
 
-    startAutoPlay();
+  startAutoPlay();
 }
 
 // Go to specific slide
 function goToSlide(index) {
-    if (!slides || totalSlides === 0 || index < 0 || index >= totalSlides) return;
+  if (!slides || totalSlides === 0 || index < 0 || index >= totalSlides) return;
 
-    stopAutoPlay();
+  stopAutoPlay();
 
-    slides[currentSlide].classList.remove('active');
-    if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
+  slides[currentSlide].classList.remove('active');
+  if (dots[currentSlide]) dots[currentSlide].classList.remove('active');
 
-    currentSlide = index;
+  currentSlide = index;
 
-    slides[currentSlide].classList.add('active');
-    if (dots[currentSlide]) dots[currentSlide].classList.add('active');
+  slides[currentSlide].classList.add('active');
+  if (dots[currentSlide]) dots[currentSlide].classList.add('active');
 
-    resetAnimations();
-    startAutoPlay();
+  resetAnimations();
+  startAutoPlay();
 }
 
 // Reset animations for new slide
 function resetAnimations() {
-    if (!slides[currentSlide]) return;
-    const activeSlide = slides[currentSlide];
-    const elements = activeSlide.querySelectorAll('.promo-text, .orange-dot, .yellow-dot, .slide-title, .slide-btn');
+  if (!slides[currentSlide]) return;
+  const activeSlide = slides[currentSlide];
+  const elements = activeSlide.querySelectorAll('.promo-text, .orange-dot, .yellow-dot, .slide-title, .slide-btn');
 
-    elements.forEach(el => {
-        el.style.animation = 'none';
-        el.offsetHeight; // Trigger reflow
-        el.style.animation = null;
-    });
+  elements.forEach(el => {
+    el.style.animation = 'none';
+    el.offsetHeight; // Trigger reflow
+    el.style.animation = null;
+  });
 }
 
 
@@ -121,14 +121,14 @@ function initReviewSlider() {
     }, 6000);
   }
 
-  window.changeReview = function(dir) {
+  window.changeReview = function (dir) {
     if (reviewAutoInterval) clearInterval(reviewAutoInterval);
     currentReview = (currentReview + dir + totalReviews) % totalReviews;
     updateReviewSlider();
     startReviewAuto();
   }
 
-  window.goToReview = function(i) {
+  window.goToReview = function (i) {
     if (reviewAutoInterval) clearInterval(reviewAutoInterval);
     currentReview = i;
     updateReviewSlider();
@@ -162,48 +162,48 @@ function togglePlay(btn) {
 // 
 
 // Mobile menu toggle
-      const hamburger = document.getElementById("hamburger");
-      const navMenu = document.getElementById("navMenu");
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
 
-      hamburger.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
-      });
+hamburger.addEventListener("click", () => {
+  navMenu.classList.toggle("active");
+});
 
-      // Mobile submenu toggle
-      const menuItems = document.querySelectorAll(".nav-menu > li");
+// Mobile submenu toggle
+const menuItems = document.querySelectorAll(".nav-menu > li");
 
-      menuItems.forEach((item) => {
-        item.addEventListener("click", function (e) {
-          if (window.innerWidth <= 992) {
-            this.classList.toggle("active");
-          }
-        });
-      });
+menuItems.forEach((item) => {
+  item.addEventListener("click", function (e) {
+    if (window.innerWidth <= 992) {
+      this.classList.toggle("active");
+    }
+  });
+});
 
 
 // Initialize all on DOM load
 document.addEventListener('DOMContentLoaded', function () {
-    // Initialize hero slider
-    initHeroSlider();
+  // Initialize hero slider
+  initHeroSlider();
 
-    // Initialize review slider
-    initReviewSlider();
+  // Initialize review slider
+  initReviewSlider();
 
-    // FAQ accordion
-    const items = document.querySelectorAll('.faq-item');
-    items.forEach(item => {
-      const btn = item.querySelector('.faq-question');
-      if (btn) {
-        btn.addEventListener('click', () => {
-          // optional: close others for accordion style
-          items.forEach(i => {
-            if (i !== item) i.classList.remove('open');
-          });
-          item.classList.toggle('open');
+  // FAQ accordion
+  const items = document.querySelectorAll('.faq-item');
+  items.forEach(item => {
+    const btn = item.querySelector('.faq-question');
+    if (btn) {
+      btn.addEventListener('click', () => {
+        // optional: close others for accordion style
+        items.forEach(i => {
+          if (i !== item) i.classList.remove('open');
         });
-      }
-    });
+        item.classList.toggle('open');
+      });
+    }
   });
+});
 
 
 //   carper tab
@@ -219,5 +219,68 @@ document.addEventListener('DOMContentLoaded', function () {
       tab.classList.add('active');
       document.querySelector(tab.dataset.target).classList.add('active');
     });
+  });
+});
+
+
+function searchFAQ() {
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const accordionItems = document.querySelectorAll('.accordion-item');
+
+  accordionItems.forEach(item => {
+    const question = item.querySelector('.accordion-button').textContent.toLowerCase();
+    const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
+
+    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
+      item.style.display = 'block';
+      if (searchTerm !== '') {
+        item.querySelector('.accordion-button').classList.remove('collapsed');
+        item.querySelector('.accordion-collapse').classList.add('show');
+      }
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+// Search on Enter key
+document.getElementById('searchInput').addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    searchFAQ();
+  }
+});
+
+// Smooth scroll for category buttons
+document.querySelectorAll('.category-btn').forEach(btn => {
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+    // Remove active class from all buttons
+    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+    // Add active class to clicked button
+    this.classList.add('active');
+  });
+});
+
+// Active category on scroll
+window.addEventListener('scroll', function () {
+  const categories = document.querySelectorAll('.faq-category');
+  const navButtons = document.querySelectorAll('.category-btn');
+
+  let current = '';
+  categories.forEach(category => {
+    const sectionTop = category.offsetTop;
+    if (pageYOffset >= sectionTop - 200) {
+      current = category.getAttribute('id');
+    }
+  });
+
+  navButtons.forEach(btn => {
+    btn.classList.remove('active');
+    if (btn.getAttribute('href') === '#' + current) {
+      btn.classList.add('active');
+    }
   });
 });
