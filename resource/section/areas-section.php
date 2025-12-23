@@ -10,14 +10,26 @@
         <!-- Left: list -->
         <div class="areas-list">
           <ul>
-            <li>Surat City</li>
-            <li>Sayan</li>
-            <li>Velanja</li>
-            <li>Kamrej</li>
-            <li>Kadodra</li>
-            <li>Palsana</li>
-            <li>Sachin GIDC</li>
+            <li>Surat</li>
+            <li>Bharuch</li>
+            <li>Navsari</li>
+            <li>Valsad</li>
+            <li>Ankleshwar</li>
+            <li>Vapi</li>
+            <li>Bardoli</li>
             <li>Hazira</li>
+            <li>Vyara</li>
+            <li>Kamrej</li>
+            <li>Olpad</li>
+            <li>Kosamba</li>
+            <li>Mandvi</li>
+            <li>Chikhli</li>
+            <li>Umargam</li>
+            <li>Ukai</li>
+            <li>Umarpada</li>
+            <li>Waghai</li>
+            <li>Ahwa</li>
+
           </ul>
           <p class="areas-note">
             Nearby villages and industrial areas around these locations are
@@ -28,7 +40,7 @@
         <!-- Right: static map image -->
         <div class="areas-map">
           <!-- apni attached image ko /images/surat-area-map.jpg ke naam se save karo -->
-          <img src="<?php echo BASE_URL . 'includes/image/image.png'?>" alt="Surat service area map" />
+          <img src="<?php echo BASE_URL . 'includes/image/image.png' ?>" alt="Surat service area map" />
         </div>
       </div>
     </div>

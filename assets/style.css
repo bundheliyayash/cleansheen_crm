@@ -4130,9 +4130,9 @@ body{
 
 /* HERO */
 .cw-hero{
-  background:url("https://via.placeholder.com/1920x1080/4caf50/ffffff?text=Hero+Background") center center no-repeat;
+  background:url("../includes/image/backery-cleaning.png") center center no-repeat;
   background-size:cover;
-  height:260px;
+  height:400px;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -4239,6 +4239,9 @@ body{
 .cm-card img{
   width:100%;
   display:block;
+  height: 250px;
+  box-shadow:20px 8px 18px rgba(0,0,0,0.08);
+  border-radius:10px;
 }
 .cm-card h3{
   font-size:16px;

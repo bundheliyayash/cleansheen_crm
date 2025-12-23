@@ -47,13 +47,25 @@
                 <h4>Areas We Cover</h4>
                 <ul>
                     <li>Surat City</li>
-                    <li>Sayan</li>
-                    <li>Velanja</li>
-                    <li>Kamrej</li>
-                    <li>Kadodra</li>
-                    <li>Palsana</li>
-                    <li>Sachin GIDC</li>
+                    <li>Bharuch</li>
+                    <li>Navsari</li>
+                    <li>Valsad</li>
+                    <li>Ankleshwar</li>
+                    <li>Vapi</li>
+                    <li>Bardoli</li>
                     <li>Hazira</li>
+                    <li>Vyara</li>
+                    <li>Kamrej</li>
+                    <li>Olpad</li>
+                    <li>Kosamba</li>
+                    <li>Mandvi</li>
+                    <li>Chikhli</li>
+                    <li>Umargam</li>
+                    <li>Ukai</li>
+                    <li>Umarpada</li>
+                    <li>Waghai</li>
+                    <li>Ahwa</li>
+
                 </ul>
             </div>
 
