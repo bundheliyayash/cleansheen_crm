@@ -25,28 +25,91 @@
 <body>
 
     <?php include ROOT_PATH . 'resource/header.php'; ?>
+    <!-- ================= MEDICAL ORGANISATION CLEANING SERVICES ================= -->
 
     <section class="sector-section">
         <div class="sector-inner">
             <div class="sector-image">
-                <img src="<?php echo BASE_URL . 'includes/image/medical-cleaning.jpeg' ?>"
-                    alt="Hospitals and clinics in Gujarat">
+                <img src="<?php echo BASE_URL . 'includes/image/medical-cleaning.webp' ?>"
+                    alt="Medical organisation and healthcare facility cleaning services">
             </div>
             <div class="sector-text">
-                <h2>Medical &amp; Healthcare Facility Cleaning – Gujarat</h2>
+                <h2>Medical Organisation &amp; Healthcare Facility Cleaning Services</h2>
                 <p>
-                    Gujarat me multi‑speciality hospitals, diagnostic centres aur small clinics sabhi ko
-                    high‑standard hygiene ki zaroorat hoti hai. Waiting areas, OPD rooms, labs aur washrooms
-                    me regular disinfection patient safety ke liye critical hai.
+                    Medical organisations such as healthcare institutions, diagnostic
+                    networks, research centres, and medical offices require strict
+                    hygiene and sanitation standards to support safe operations.
+                    Clean environments are essential for patient care, staff safety,
+                    and regulatory compliance.
                 </p>
                 <p>
-                    Team ko healthcare protocols, colour‑coded tools aur bio‑waste areas ki basic training
-                    ke saath deploy kiya ja sakta hai. Cleaning timing OPD hours ke pehle/baad plan ki jati
-                    hai taaki operations disturb na ho.
+                    Our cleaning services are designed to support medical organisations
+                    with consistent hygiene practices, trained manpower, and minimal
+                    disruption to daily healthcare activities.
                 </p>
             </div>
         </div>
     </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Operational Areas &amp; Common Facility Cleaning</h2>
+                <p>
+                    Medical organisations operate across multiple functional areas
+                    that require regular and systematic cleaning to maintain hygiene
+                    and professionalism.
+                </p>
+                <ul>
+                    <li>Administrative offices and medical coordination areas</li>
+                    <li>Waiting zones, reception desks, and public corridors</li>
+                    <li>Consultation rooms and support facilities</li>
+                    <li>Laboratories and controlled-access zones</li>
+                    <li>Washrooms, staircases, and lift lobbies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Hygiene Protocols &amp; Controlled Cleaning Practices</h2>
+                <p>
+                    Medical environments demand structured cleaning procedures
+                    to reduce contamination risks and ensure safety.
+                </p>
+                <p>
+                    Our teams follow defined cleaning protocols, use colour-coded
+                    tools, and apply approved disinfectants suitable for healthcare
+                    and medical-use environments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Why Medical Organisations Choose Our Services</h2>
+                <p>
+                    Healthcare institutions and medical organisations trust us
+                    for our reliability, compliance-focused approach, and
+                    understanding of sensitive environments.
+                </p>
+                <ul>
+                    <li>Staff trained for medical and healthcare environments</li>
+                    <li>Use of approved medical-grade cleaning agents</li>
+                    <li>Flexible cleaning schedules around operational hours</li>
+                    <li>Supervisor-led inspections and quality monitoring</li>
+                    <li>Suitable for hospitals, labs, clinics, and healthcare offices</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= END MEDICAL ORGANISATION CLEANING SERVICES ================= -->
+
 
 
     <?php include ROOT_PATH . 'resource/section/testimonials-section.php'; ?>

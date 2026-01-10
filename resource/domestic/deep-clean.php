@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -75,6 +77,15 @@
         </div>
     </section>
 
+    <!-- 3.4 Deep office cleaning banner -->
+    <section class="deep-office-banner">
+        <div class="deep-office-inner">
+            <h2>We Also Offer Deep Office Cleaning</h2>
+            <!-- big image banner of office cleaners here -->
+        </div>
+    </section>
+
+
     <!-- 3.3 Deep cleaning services (5 cards row) -->
     <section class="deep-services">
         <div class="deep-services-inner">
@@ -104,14 +115,6 @@
             </div>
 
             <a href="#request-form" class="btn-solid">Get a Deep Cleaning Quote</a>
-        </div>
-    </section>
-
-    <!-- 3.4 Deep office cleaning banner -->
-    <section class="deep-office-banner">
-        <div class="deep-office-inner">
-            <h2>We Also Offer Deep Office Cleaning</h2>
-            <!-- big image banner of office cleaners here -->
         </div>
     </section>
 
