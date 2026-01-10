@@ -227,7 +227,7 @@ header {
     opacity: 0;
     visibility: hidden;
     transform: translateY(10px);
-    transition: all 0.3s ease;
+    transition: Fall 0.3s ease;
     z-index: 1000;
 }
 
@@ -262,6 +262,64 @@ header {
 .submenu li a:empty {
     display: none;
 }
+
+/* ===== SECOND LEVEL SUBMENU ===== */
+.ssubmenu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 240px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    padding: 12px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+    z-index: 1100;
+}
+
+/* Show second submenu on hover */
+.submenu li:hover > .ssubmenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+/* Second submenu links */
+.ssubmenu li a {
+    padding: 10px 22px;
+    font-size: 14px;
+    color: #555;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.ssubmenu li a:hover {
+    background-color: #f8f9fa;
+    color: #7cb342;
+    border-left-color: #7cb342;
+    padding-left: 28px;
+}
+
+/* Arrow indicator for submenu items */
+/* Show arrow ONLY if second submenu exists */
+.submenu > li:has(> .ssubmenu) > a::after {
+    content: '›';
+    float: right;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #aaa;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate arrow on hover */
+.submenu > li:has(> .ssubmenu):hover > a::after {
+    transform: translateX(3px);
+    color: #7cb342;
+}
+
 
 /* ===== HEADER RIGHT (Phone & CTA Button) ===== */
 .header-right {
@@ -4137,12 +4195,49 @@ body{
   align-items:center;
   justify-content:center;
 }
-.cw-hero-overlay{
+
+.gz-hero{
+  background:url("../includes/image/game-zone.png") center center no-repeat;
+  background-size:cover;
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.ch-hero{
+  background:url("../includes/image/") center center no-repeat;
+  background-size:cover;
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.hr-hero{
+  background:url("../includes/image/") center center no-repeat;
+  background-size:cover;
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.sa-hero{
+  background:url("../includes/image/") center center no-repeat;
+  background-size:cover;
+  height:400px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.cw-hero-overlay,.gz-hero-overlay, .ch-hero-overlay, .hr-hero-overlay, .sa-hero-overlay{
   width:100%;
   text-align:center;
   padding:0 20px;
 }
-.cw-hero h1{
+.cw-hero h1, .gz-hero h1{
   font-family:'Playfair Display',serif;
   font-size:36px;
   letter-spacing:.06em;
@@ -6349,6 +6444,15 @@ body{
   line-height: 1.3;
 }
 
+.sector-text1 h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1b5e20;
+  line-height: 1.3;
+}
+
 .sector-text h2::before {
   content: '';
   display: block;
@@ -6360,6 +6464,13 @@ body{
 }
 
 .sector-text p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.sector-text1 p {
   font-size: 16px;
   line-height: 1.9;
   color: #555;
@@ -6381,6 +6492,38 @@ body{
 .sector-text ul li {
   margin-bottom: 8px;
   list-style: disc;
+}
+
+.sector-text1 ul {
+  margin: 18px 0;
+  padding-left: 25px;
+  font-size: 15px;
+  color: #555;
+  line-height: 2;
+}
+
+.sector-text1 ul li {
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+.intro-inner{
+    max-width:900px;
+  margin:0 auto;
+  padding:0 20px; 
+  text-align:center;
+}
+.intro-inner h2{
+  font-family:'Playfair Display',serif;
+  font-size:32px;
+  color:var(--green-dark);
+  margin-bottom:18px;
+}
+.intro-inner p{
+  font-size:15px;
+  color:#555;
+  line-height:1.9;
+  margin-bottom:12px;
 }
 
 /* ===== RESPONSIVE ===== */

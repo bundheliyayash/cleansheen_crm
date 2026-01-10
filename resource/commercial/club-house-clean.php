@@ -25,9 +25,9 @@
     <?php include ROOT_PATH . 'resource/header.php'; ?>
 
     <!-- 1. HERO -->
-    <section class="gz-hero">
-        <div class="gz-hero-overlay">
-            <h1>Game zone Cleaning</h1>
+    <section class="ch-hero">
+        <div class="ch-hero-overlay">
+            <h1>Club House Cleaning</h1>
         </div>
     </section>
 
@@ -38,27 +38,27 @@
                 <div class="cf-item">
                     <div class="cf-icon"><i class="fas fa-check-circle"></i></div>
                     <h3>100% Guaranteed Results</h3>
-                    <p>Crystal-clear floors, screens, consoles aur seating jo aapke game zone ki value aur customer experience dono enhance kare.</p>
+                    <p>Crystal-clear floors, lounges, common areas and seating that enhance your clubhouse’s value and elevate member experience.</p>
                 </div>
                 <div class="cf-item">
                     <div class="cf-icon"><i class="fas fa-hard-hat"></i></div>
                     <h3>Health &amp; Safety</h3>
-                    <p>Trained aur certified cleaning operatives jo electrical equipment, public areas aur high-traffic zones me safe cleaning procedures follow karte hain.</p>
+                    <p>Trained and certified cleaning operatives following safe procedures for public areas, facilities, equipment and high-traffic zones.</p>
                 </div>
                 <div class="cf-item">
                     <div class="cf-icon"><i class="fas fa-tint"></i></div>
                     <h3>Advanced Cleaning Methods</h3>
-                    <p>Pure‑water pole systems or traditional squeegee cleaning.</p>
+                    <p>Modern cleaning techniques including eco-friendly solutions, specialist surface care and deep-clean methods.</p>
                 </div>
                 <div class="cf-item">
                     <div class="cf-icon"><i class="fas fa-shield-alt"></i></div>
                     <h3>Comprehensive Insurance</h3>
-                    <p>Public liability cover for commercial window contracts.</p>
+                    <p>Full public liability cover for commercial clubhouse and community facility cleaning contracts.</p>
                 </div>
                 <div class="cf-item">
                     <div class="cf-icon"><i class="fas fa-bolt"></i></div>
                     <h3>Latest Technology</h3>
-                    <p>Modern equipment for reach, safety and spotless results.</p>
+                    <p>Modern equipment for efficiency, safety and consistently spotless results across all clubhouse areas.</p>
                 </div>
             </div>
         </div>
@@ -67,14 +67,14 @@
     <!-- 3. INTRO WHITE BLOCK -->
     <section class="cw-intro">
         <div class="cw-intro-inner">
-            <h2>Professional Game Zone Cleaning for Your City</h2>
+            <h2>Professional Clubhouse Cleaning for Your City</h2>
             <p>
-                Professional game zone cleaning keeps your entertainment space hygienic, protects valuable gaming equipment,
-                and ensures customers enjoy a safe and comfortable gaming experience.
+                Professional clubhouse cleaning keeps your shared spaces hygienic, protects valuable facilities,
+                and ensures members and guests enjoy a safe, comfortable and welcoming environment.
             </p>
             <p>
-                Regular cleaning removes dust, fingerprints, food spills and sweat residue that can damage consoles,
-                arcade machines, screens and ventilation systems over time.
+                Regular cleaning removes dust, stains, spills and high-touch contamination that can damage furniture,
+                flooring, amenities and ventilation systems over time.
             </p>
         </div>
     </section>
@@ -84,37 +84,35 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-1.jpg' ?>" alt="Gaming Area & Equipment">
-                    <h3>Gaming Area & Equipment</h3>
+                    <img src="<?php echo BASE_URL . '/includes/image/club-house-1.jpg' ?>" alt="Common Areas & Facilities">
+                    <h3>Common Areas & Facilities</h3>
                     <p>
-                        Deep cleaning and sanitising of arcade machines, gaming consoles, VR equipment,
-                        controllers, touch screens and seating to keep all high-contact surfaces safe and hygienic.
+                        Deep cleaning and sanitising of lounges, meeting rooms, indoor games areas,
+                        gyms, washrooms and seating to keep all high-contact surfaces clean and hygienic.
 
-                        Careful cleaning of floors, walls and gaming pods to manage heavy footfall and long gaming sessions.
+                        Thorough care of floors, walls and shared spaces to manage daily use and community footfall.
                     </p>
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-2.webp' ?>" alt="Front-of-House & Customer Areas">
-                    <h3>Front-of-House & Customer Areas</h3>
+                    <img src="<?php echo BASE_URL . '/includes/image/club-house-2.webp' ?>" alt="Reception & Member Areas">
+                    <h3>Reception & Member Areas</h3>
                     <p>
-                        Detailed cleaning of reception desks, ticket counters, glass displays and snack areas
-                        to create a strong first impression for visitors.
+                        Detailed cleaning of reception desks, waiting areas, notice boards, glass panels
+                        and refreshment zones to create a positive first impression.
 
-                        Scheduled floor, seating and touch-point cleaning around waiting areas, payment counters
-                        and entrance doors to keep your game zone welcoming.
+                        Scheduled cleaning of entrances, corridors, seating and touchpoints to keep your clubhouse inviting.
                     </p>
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-3.jpg' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
+                    <img src="<?php echo BASE_URL . '/includes/image/club-house-3.jpg' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
                     <h3>High-Level, Ventilation & Hard-to-Reach</h3>
                     <p>
-                        Cleaning of high-level lighting, speakers, air-conditioning vents and ceiling fixtures
-                        to reduce dust build-up and improve air quality.
+                        Cleaning of high-level lighting, ceiling fans, air-conditioning vents and fixtures
+                        to reduce dust build-up and improve indoor air quality.
 
-                        Safe access methods for hard-to-reach areas around large gaming machines, LED screens
-                        and ceiling installations without disrupting daily operations.
+                        Safe access solutions for hard-to-reach areas without disrupting daily clubhouse activities.
                     </p>
                 </article>
             </div>
@@ -125,20 +123,19 @@
     <section class="cw-about">
         <div class="cw-about-inner">
             <div class="cw-about-text">
-                <h2>Why Game Zones Choose Our Cleaning Team</h2>
+                <h2>Why Clubhouses Choose Our Cleaning Team</h2>
                 <p>
-                    Flexible cleaning schedules arranged around opening hours, late-night gaming
-                    and peak customer times to minimise disruption.
+                    Flexible cleaning schedules planned around member usage, events
+                    and peak hours to minimise disruption.
                 </p>
                 <p>
-                    Consistent supervisors, detailed checklists and hygiene reports so you can
-                    confidently demonstrate cleanliness standards to management and partners.
+                    Consistent supervision, detailed checklists and hygiene reports
+                    to help management maintain high cleanliness standards with confidence.
                 </p>
             </div>
 
             <div class="cw-about-media">
-                <!-- replace with video iframe ya image -->
-                <img src="<?php echo BASE_URL . '/includes/image/game-one-1.webp' ?>" alt="Window cleaning video">
+                <img src="<?php echo BASE_URL . '/includes/image/club-one-1.webp' ?>" alt="Professional clubhouse cleaning">
             </div>
         </div>
     </section>
@@ -146,12 +143,12 @@
     <!-- 6. BOTTOM WHITE TEXT STRIP -->
     <section class="cw-more">
         <div class="cw-more-inner">
-            <h2>So Much More Than Just Game Zone Cleaning</h2>
+            <h2>So Much More Than Just Clubhouse Cleaning</h2>
             <p>
-                Professional game zone cleaning can be combined with equipment sanitising,
-                floor deep cleaning, ventilation maintenance or full facility deep cleans
-                to keep your entire entertainment space spotless, safe and customer-ready.
-                Speak to the team about creating a cleaning package that fits your game zone.
+                Professional clubhouse cleaning can be combined with floor deep cleaning,
+                washroom sanitising, ventilation maintenance or full facility deep cleans
+                to keep your entire clubhouse spotless, safe and member-ready.
+                Speak to our team to create a cleaning package tailored to your clubhouse.
             </p>
         </div>
     </section>

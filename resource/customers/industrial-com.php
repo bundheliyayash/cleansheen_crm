@@ -35,15 +35,84 @@
             <div class="sector-text">
                 <h2>Industrial &amp; Warehouse Cleaning – Gujarat</h2>
                 <p>
-                    Sanand, Vapi, Ankleshwar, Hazira jaise industrial belts me manufacturing plants aur
-                    warehouses ko dust‑free, safe aur organised rakhna zaroori hai. Professional cleaning se
-                    machinery ke around build‑up kam hota hai aur safety audits me help milti hai.
+                    In major industrial belts such as Sanand, Vapi, Ankleshwar, and Hazira,
+                    manufacturing plants and warehouses require regular and professional
+                    cleaning to remain dust-free, safe, and well-organised. Proper industrial
+                    cleaning helps reduce build-up around machinery and supports compliance
+                    with safety and hygiene audits.
                 </p>
                 <p>
-                    Factory floors, loading bays, storage racks, staff change rooms aur canteen areas ke liye
-                    customised plan diya ja sakta hai. Shift ke beech ya night shift me cleaning schedule
-                    karke production par minimum impact rakha ja sakta hai.
+                    Customised cleaning plans can be designed for factory floors, loading bays,
+                    storage racks, staff changing rooms, and canteen areas. Cleaning schedules
+                    can be planned during shift changes or night hours to ensure minimal impact
+                    on ongoing production activities.
                 </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Industrial & Warehouse Cleaning Scope</h2>
+                <p>
+                    Industrial units and warehouses require specialised cleaning solutions
+                    due to heavy machinery, high dust accumulation, and continuous material
+                    movement. Our industrial cleaning services in Gujarat focus on maintaining
+                    safety, operational efficiency, and regulatory hygiene standards.
+                </p>
+                <ul>
+                    <li>Factory floors and production areas</li>
+                    <li>Warehouses and storage zones</li>
+                    <li>Loading docks and dispatch areas</li>
+                    <li>Machinery surroundings and work platforms</li>
+                    <li>Common areas, staircases, and industrial washrooms</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Scheduled Cleaning & AMC for Industrial Facilities</h2>
+                <p>
+                    Industrial environments operate on fixed production schedules, which is why
+                    our cleaning services are planned to avoid any disruption to operations.
+                    Cleaning can be scheduled during non-working hours, shift changes, or
+                    planned shutdown periods.
+                </p>
+                <p>
+                    We offer AMC (Annual Maintenance Contract) based industrial cleaning services
+                    to ensure consistent manpower, trained supervisors, and cost-effective
+                    long-term maintenance for factories and warehouses.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Industrial Cleaning Services Across Gujarat</h2>
+                <p>
+                    Our industrial and warehouse cleaning services are actively provided across
+                    key industrial belts and business zones in South Gujarat, supporting
+                    manufacturing units, logistics hubs, and storage facilities.
+                </p>
+                <p>
+                    We serve industrial clients in Surat City, Bharuch, Navsari, Valsad,
+                    Ankleshwar, Vapi, Bardoli, Hazira, Vyara, Kamrej, Olpad, Kosamba, Mandvi,
+                    Chikhli, Umargam, Ukai, Umarpada, Waghai, and Ahwa.
+                </p>
+                <ul>
+                    <li>Trained staff familiar with industrial safety protocols</li>
+                    <li>Use of heavy-duty equipment and industrial-grade chemicals</li>
+                    <li>Supervisor-led cleaning and quality monitoring</li>
+                    <li>Flexible scheduling aligned with production cycles</li>
+                    <li>Experience with factories, warehouses, and logistics units</li>
+                </ul>
             </div>
         </div>
     </section>

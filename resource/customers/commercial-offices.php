@@ -30,24 +30,89 @@
         <div class="sector-inner">
             <div class="sector-image">
                 <img src="<?php echo BASE_URL . 'includes/image/commercial-offices.png' ?>"
-                    alt="Corporate offices in Gujarat">
+                    alt="Commercial Office Cleaning in Gujarat">
             </div>
+
             <div class="sector-text">
                 <h2>Commercial Office Cleaning in Gujarat</h2>
+
                 <p>
-                    Gujarat ke Ahmedabad, Vadodara, Surat jaise business hubs me IT parks, corporate offices
-                    aur co‑working spaces roz bahut zyada footfall handle karte hain. Professional cleaning se
-                    reception, cabins aur workstations hamesha presentable rehte hain aur staff ko healthy
-                    environment milta hai.
+                    In major business hubs of Gujarat such as Ahmedabad, Vadodara, and Surat, IT parks,
+                    corporate offices, and co-working spaces experience high daily footfall. A clean and
+                    well-maintained workplace plays a vital role in creating a professional impression
+                    and ensuring a healthy environment for employees.
                 </p>
+
                 <p>
-                    Team regular dusting, mopping, glass cleaning, workstation sanitisation aur washroom
-                    hygiene ka pura dhyan rakhegi. Service ko aapke shift timing ke hisaab se design kiya
-                    ja sakta hai – early morning, late evening ya weekend pe bhi.
+                    Our trained cleaning team takes care of regular dusting, floor mopping, glass and
+                    partition cleaning, workstation sanitisation, and washroom hygiene. Cleaning schedules
+                    can be customised as per office working hours, including early mornings, late evenings,
+                    or weekends.
                 </p>
             </div>
         </div>
     </section>
+
+<section class="sector-section">
+    <div class="intro-inner">
+        <div class="sector-text1 full-width">
+            <h2>Office Cleaning Scope & Coverage</h2>
+            <p>
+                Our commercial office cleaning services are designed to cover all essential
+                workspaces and common areas that require daily attention. From entry points
+                to employee work zones, every area is cleaned with a focus on hygiene,
+                safety, and presentation.
+            </p>
+            <ul>
+                <li>Workstations, cabins, and open office areas</li>
+                <li>Reception areas and waiting lounges</li>
+                <li>Conference rooms and meeting spaces</li>
+                <li>Pantry, cafeteria, and break areas</li>
+                <li>Washrooms, staircases, and lift lobbies</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="sector-section">
+    <div class="intro-inner">
+        <div class="sector-text1 full-width">
+            <h2>Flexible Cleaning Schedules & AMC Contracts</h2>
+            <p>
+                Every office operates on a different schedule, which is why our cleaning
+                plans are flexible and fully customisable. Based on office size and usage,
+                services can be planned on a daily, weekly, or periodic basis.
+            </p>
+            <p>
+                We also offer AMC (Annual Maintenance Contract) based cleaning services,
+                ensuring consistent quality, trained manpower, and long-term cost efficiency
+                for corporate clients.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="sector-section">
+    <div class="intro-inner">
+        <div class="sector-text1 full-width">
+            <h2>Why Choose Us for Commercial Office Cleaning</h2>
+            <p>
+                Businesses across Gujarat trust us as their long-term cleaning partner due
+                to our professional approach, reliable workforce, and consistent service
+                quality. We understand corporate expectations and deliver services that
+                match workplace standards.
+            </p>
+            <ul>
+                <li>Trained and background-verified staff</li>
+                <li>Use of professional equipment and approved chemicals</li>
+                <li>Supervisor-based monitoring and quality checks</li>
+                <li>Flexible service timing without disturbing office operations</li>
+                <li>Experience with IT parks, corporate offices, and co-working spaces</li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 
     <?php include ROOT_PATH . 'resource/section/testimonials-section.php'; ?>
