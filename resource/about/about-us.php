@@ -28,103 +28,75 @@
 
     <?php include ROOT_PATH . 'resource/header.php'; ?>
 
-    <section class="about-section py-5">
-        <div class="container">
-            <!-- Who We Are -->
-            <div class="who-we-are mb-5">
-                <h2 class="section-title mb-4">Who We Are</h2>
-                <p class="lead">How does it feel to live in a place where cleanliness takes a backseat? Imagine inviting guests to your home or clients to your workplace—the sight of dirt and an unclean space creates a disappointing first impression. In today's fast-paced lifestyle, maintaining a spotless home is both difficult and time-consuming. That's where <strong>Clean Sheen</strong> comes to the rescue—your personal housekeeping and cleaning partner.</p>
+    <section class="services-section">
+        <div class="services-container">
+            <!-- Section Header -->
+            <div class="section-header">
+                <h2>Who We Are</h2>
+                <p>
+                    How does it feel to live in a place where cleanliness takes a backseat? Imagine inviting guests to your home or clients to your workplace—the sight of dirt and an unclean space creates a disappointing first impression. In today's fast-paced lifestyle, maintaining a spotless home is both difficult and time-consuming. That's where Clean Sheen comes to the rescue—your personal housekeeping and cleaning partner.
+                </p>
+                <hr>
 
-                <p>Our service team comprises skilled professionals with 12 years of expertise in housekeeping. Established in Surat by highly qualified individuals with a combined 25 years of corporate experience, Clean Sheen was founded to eliminate every trace of dirt from your residence and office.</p>
+                <p>Our service team comprises skilled professionals with 12 years of expertise in housekeeping. Established in Surat by highly qualified individuals with a combined 25 years of corporate experience, Clean Sheen was founded to eliminate every trace of dirt from your residence and office.
+                </p>
+                <hr>
 
                 <p>You might dust regularly, but deep cleaning remains a challenge. Your home harbors dirt and dust particles in hidden corners that aren't immediately visible. Maintaining and sanitizing your space is crucial for your personal health and hygiene. A clean environment significantly reduces the likelihood of illness for you and your family.</p>
+                <hr>
 
-                <p>Clean Sheen provides comprehensive cleaning services that remove even the tiniest speck of dust, leaving every corner absolutely flawless. Our highly qualified team uses modern techniques with premium cleaning materials and equipment. All our cleaners are thoroughly vetted and police-verified, ensuring they can deep clean any area of your premises without hassle or inconvenience.</p>
+                <p>
+                    Clean Sheen provides comprehensive cleaning services that remove even the tiniest speck of dust, leaving every corner absolutely flawless. Our highly qualified team uses modern techniques with premium cleaning materials and equipment. All our cleaners are thoroughly vetted and police-verified, ensuring they can deep clean any area of your premises without hassle or inconvenience.
+                </p>
             </div>
 
-            <!-- Mission, Vision, Values Row -->
-            <div class="row g-4 mb-5">
-                <!-- Mission -->
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body">
-                            <div class="icon-box mb-3">
-                                <i class="fas fa-bullseye fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title h4">Our Mission</h3>
-                            <p class="card-text">We aim to provide the most spotless cleaning solutions for your home, office, or any space requiring professional care. With our trusted and skilled professionals, we're equipped to meet all your cleaning demands. Once you experience our foolproof service, we're confident you'll return whenever the need arises. Our goal is to build long-term relationships based on mutual trust and complete satisfaction.</p>
-                        </div>
+            <!-- Top Row - 3 Cards -->
+            <div class="features-row top">
+                <!-- Card 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
                     </div>
+                    <h3>Our Mission</h3>
+                    <p>
+                        We aim to provide the most spotless cleaning solutions for your home, office, or any space requiring professional care. With our trusted and skilled professionals, we're equipped to meet all your cleaning demands. Once you experience our foolproof service, we're confident you'll return whenever the need arises. Our goal is to build long-term relationships based on mutual trust and complete satisfaction. </p>
                 </div>
 
-                <!-- Vision -->
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body">
-                            <div class="icon-box mb-3">
-                                <i class="fas fa-eye fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title h4">Our Vision</h3>
-                            <p class="card-text">We envision creating clean and hygienic environments for everyone while saving you valuable time. We work on your schedule, offering flexible service anywhere and anytime. Privacy is paramount to us, which is why our team consists of highly trustworthy and verified experts who respect your space and confidentiality.</p>
-                        </div>
+                <!-- Card 2 -->
+                <div class="feature-card light">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
                     </div>
+                    <h3>Our Vision</h3>
+                    <p>
+                        We envision creating clean and hygienic environments for everyone while saving you valuable time. We work on your schedule, offering flexible service anywhere and anytime. Privacy is paramount to us, which is why our team consists of highly trustworthy and verified experts who respect your space and confidentiality.
+                    </p>
                 </div>
 
-                <!-- Values -->
-                <div class="col-md-4">
-                    <div class="card h-100 border-0 shadow-sm">
-                        <div class="card-body">
-                            <div class="icon-box mb-3">
-                                <i class="fas fa-heart fa-3x text-primary"></i>
-                            </div>
-                            <h3 class="card-title h4">Our Core Values</h3>
-                            <ul class="list-unstyled mt-3">
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Respect</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Responsibility</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Excellence</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Integrity</li>
-                                <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i> Innovation</li>
-                            </ul>
-                        </div>
+                <!-- Card 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
                     </div>
+                    <h3>Our Core Values</h3>
+                    <p><strong>Our Values:</strong> We believe in <strong>Respect</strong>, treating everyone with dignity and fairness; <strong>Responsibility</strong>, taking ownership of our actions; <strong>Excellence</strong>, striving for the highest standards; <strong>Integrity</strong>, acting with honesty and transparency; and <strong>Innovation</strong>, embracing creativity and new ideas to drive progress.</p>
                 </div>
             </div>
 
-            <!-- Why Choose Clean Sheen -->
-            <div class="why-choose-us text-center bg-light p-5 rounded">
-                <h2 class="section-title mb-4">Why Choose Clean Sheen</h2>
-                <p class="lead">With 12 years of housekeeping expertise and 25 years of combined corporate experience, our team brings unmatched professionalism to every project. We don't just clean—we transform spaces into pristine environments where you can live, work, and thrive with peace of mind.</p>
-            </div>
-
-            <!-- Stats Section (Optional) -->
-            <div class="row text-center mt-5">
-                <div class="col-md-3 col-6 mb-4">
-                    <div class="stat-box">
-                        <h3 class="display-4 text-primary fw-bold">12+</h3>
-                        <p class="text-muted">Years of Expertise</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <div class="stat-box">
-                        <h3 class="display-4 text-primary fw-bold">25+</h3>
-                        <p class="text-muted">Years Corporate Experience</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <div class="stat-box">
-                        <h3 class="display-4 text-primary fw-bold">100%</h3>
-                        <p class="text-muted">Verified Professionals</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-4">
-                    <div class="stat-box">
-                        <h3 class="display-4 text-primary fw-bold">24/7</h3>
-                        <p class="text-muted">Available Service</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
+
+    <section class="sector-section">
+        <div class="intro-inner">
+            <div class="sector-text1 full-width">
+                <h2>Why Choose Clean Sheen</h2>
+                <p>
+                    With 12 years of housekeeping expertise and 25 years of combined corporate experience, our team brings unmatched professionalism to every project. We don't just clean—we transform spaces into pristine environments where you can live, work, and thrive with peace of mind.
+                </p>
+        </div>
+        </div>
+    </section>
+
 
     <?php include ROOT_PATH . 'resource/section/testimonials-section.php'; ?>
     <?php include ROOT_PATH . 'resource/section/areas-section.php'; ?>

@@ -6589,6 +6589,9 @@ body{
   }
 }
 
+hr{
+  border: none!important;
+}
 
  .about-section {
         background-color: #fff;
@@ -7192,3 +7195,60 @@ body{
                 padding: 15px 20px;
             }
         }
+
+        .started-hero{
+          background:url("../includes/image/team.jpeg") center center no-repeat;
+          background-size:cover;
+          padding:230px 0 90px;
+        }
+
+        .started-hero h1{
+          font-family: 'Playfair Display', serif;
+          font-size: 40px;
+          letter-spacing: .06em;
+          text-transform: uppercase;
+          color: #fff;
+          text-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+.started-section {
+  padding: 80px 20px;
+  background-color: #e8f5e9;
+}
+
+.started-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.started-container h2 {
+  font-size: 36px;
+  color: #1b5e20;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.started-container h2::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #2db3a6;
+  display: block;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.started-container p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+.started-container strong {
+  color: #1b5e20;
+}

@@ -30,7 +30,7 @@
     <section class="sector-section sector-section--alt">
         <div class="sector-inner">
             <div class="sector-image"> <img
-                    src="<?php echo BASE_URL . 'includes/image/government-institute-cleaning.jpg' ?>"
+                    src="<?php echo BASE_URL . 'includes/image/government-institute.png' ?>"
                     alt="Government and public institute cleaning services"> </div>
             <div class="sector-text">
                 <h2>Government &amp; Public Institution Cleaning Services</h2>

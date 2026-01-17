@@ -29,7 +29,7 @@
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="container">
-            <h1>SUSTAINABILITY AND<br>ENVIRONMENTAL POLICY</h1>
+            <h1>SUSTAINABILITY AND ENVIRONMENTAL POLICY</h1>
         </div>
     </section>
 
