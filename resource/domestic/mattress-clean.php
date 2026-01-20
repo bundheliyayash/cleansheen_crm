@@ -48,7 +48,7 @@
   <div class="mt-intro-inner">
     <h2>Professional Mattress Cleaning Service</h2>
     <p>Explain why mattress cleaning is important etc.</p>
-    <a href="#mattress-form" class="btn-solid">Book Now</a>
+    <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Book Now</a>
   </div>
 </section>
 

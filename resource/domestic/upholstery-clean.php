@@ -48,7 +48,7 @@
   <div class="up-text-inner">
     <h2>Sofa Cleaning</h2>
     <p>Full paragraph(s) about sofa and upholstery cleaning, benefits etc.</p>
-    <a href="#upholstery-form" class="btn-solid">Book Now</a>
+    <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Book Now</a>
   </div>
 </section>
 

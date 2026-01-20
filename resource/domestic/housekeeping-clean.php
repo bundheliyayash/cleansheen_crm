@@ -27,7 +27,7 @@
     <!-- HERO -->
     <section class="hk-hero">
         <div class="hk-hero-overlay">
-            <h1>Housekeeping Services</h1>
+            <h1 class="dom-hero-card">Housekeeping Services</h1>
         </div>
     </section>
 
@@ -35,22 +35,36 @@
     <section class="hk-intro">
         <div class="hk-intro-inner">
             <p>
-                Short paragraph about laundry, errands, shopping and extra help at home.
+                Our housekeeping services provide extra help around the home, taking care of
+                everyday tasks such as laundry, ironing, errands, and light household duties.
+                Ideal for busy professionals, families, or anyone who needs reliable support
+                to keep their home running smoothly.
             </p>
-            <a href="#housekeeping-form" class="btn-solid">Book Now</a>
+            <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Book Now</a>
         </div>
     </section>
 
-    <!-- TWO WHITE BOXES -->
+    <!-- TWO WHITE BOXES -->    
     <section class="hk-cards">
         <div class="hk-cards-inner">
             <article class="hk-card">
-                <h2>What do our housekeeping services cover?</h2>
-                <p>Explain chores: errands, washing, ironing, bed changing, hoovering, etc.</p>
+                <h2>What Do Our Housekeeping Services Cover?</h2>
+                <p>
+                    Our housekeeping service is flexible and tailored to your needs. Tasks can
+                    include laundry and ironing, changing bed linen, light cleaning and
+                    hoovering, grocery shopping, errands, and general household organisation.
+                    We focus on the practical day-to-day jobs that make life easier.
+                </p>
             </article>
+
             <article class="hk-card">
-                <h2>Who is in our housekeeping team?</h2>
-                <p>Explain trusted, vetted staff, extra criteria, friendly people.</p>
+                <h2>Who Is in Our Housekeeping Team?</h2>
+                <p>
+                    Our housekeepers are carefully selected, fully vetted, and trained to
+                    deliver a high standard of service. Friendly, trustworthy, and reliable,
+                    they are chosen not only for their experience but also for their attention
+                    to detail and respectful approach in your home.
+                </p>
             </article>
         </div>
     </section>
@@ -59,14 +73,20 @@
     <section class="hk-london">
         <div class="hk-london-inner">
             <div class="hk-text">
-                <h2>Housekeeping London</h2>
-                <p>Explain local company, reliability and focus on customers.</p>
+                <h2>Housekeeping in London</h2>
+                <p>
+                    As a local London housekeeping company, we understand the importance of
+                    reliability and consistency. Our focus is on building long-term
+                    relationships with our clients by delivering dependable support and a
+                    personal service you can trust.
+                </p>
             </div>
             <div class="hk-video">
-                <img src="assets/images/hk-video.jpg" alt="Housekeeping video">
+                <img src="<?php echo BASE_URL . '/includes/image/Housekeeping-1.webp'?>" alt="Professional housekeeping service">
             </div>
         </div>
     </section>
+
 
 
     <?php include ROOT_PATH . 'resource/section/testimonials-section.php'; ?>
