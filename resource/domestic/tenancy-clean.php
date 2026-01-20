@@ -53,67 +53,31 @@
         <div class="eot-features-inner">
             <div class="eot-features-grid">
                 <div class="ef-item">
+                    <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h4>Comprehensive Insurance</h4>
                     <p>Public liability cover for peace of mind.</p>
                 </div>
                 <div class="ef-item">
+                    <div class="os-icon"><i class="fa fas fa-sync-alt"></i></div>
                     <h4>100% Guarantee</h4>
                     <p>Return visits if areas are missed.</p>
                 </div>
                 <div class="ef-item">
+                    <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Keys Picked Up</h4>
                     <p>We can collect keys from agents if needed.</p>
                 </div>
                 <div class="ef-item">
+                    <div class="os-icon"><i class="fas fa-user-shield"></i></div>
                     <h4>Happy Cleaners</h4>
                     <p>Fair pay and training mean motivated teams.</p>
                 </div>
                 <div class="ef-item">
+                    <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h4>Specially Trained</h4>
                     <p>Operatives trained in end of tenancy checklists.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- 1.3 Pricing table -->
-    <section class="eot-pricing">
-        <div class="eot-pricing-inner">
-            <h2>End of Tenancy Cleaning Pricing</h2>
-            <p>Example grid – replace figures with your prices.</p>
-
-            <table class="eot-table">
-                <thead>
-                    <tr>
-                        <th>Property Type</th>
-                        <th>Cost</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Studio</td>
-                        <td>From £190</td>
-                    </tr>
-                    <tr>
-                        <td>1 Bed, 1 Bath</td>
-                        <td>From £225</td>
-                    </tr>
-                    <tr>
-                        <td>2 Bed, 1 Bath</td>
-                        <td>From £265</td>
-                    </tr>
-                    <tr>
-                        <td>2 Bed, 2 Bath</td>
-                        <td>From £290</td>
-                    </tr>
-                    <tr>
-                        <td>3 Bed, 2 Bath</td>
-                        <td>From £340</td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <a href="#request-form" class="btn-solid">Book Now</a>
         </div>
     </section>
 
@@ -144,6 +108,7 @@
 
     <!-- 1.5 Tenants / Landlords / Estate Agents -->
     <section class="eot-roles">
+        <h2>Professional Property Cleaning</h2>
         <div class="eot-roles-inner">
             <div class="eot-role">
                 <h3>Tenants</h3>

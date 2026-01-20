@@ -110,8 +110,8 @@
             </div>
 
             <div class="domestic-booking-buttons">
-                <a href="#request-form" class="btn-solid">Book Now</a>
-                <a href="tel:+919999999999" class="btn-outline">Call Us</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Book Now</a>
+                <a href="tel:+9118008903513" class="btn-outline">Call Us</a>
             </div>
         </div>
     </section>

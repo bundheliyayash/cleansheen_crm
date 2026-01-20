@@ -8,7 +8,7 @@
             <div class="slide-content">
                 <div class="yellow-dot"></div>
                 <h1 class="slide-title">We Clean, You Relax.</h1>
-                <a href="#quote" class="slide-btn">Get a Quote</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="slide-btn">Get a Quote</a>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
             <div class="slide-content">
                 <div class="yellow-dot"></div>
                 <h1 class="slide-title">Spotless Spaces, Happy Faces.</h1>
-                <a href="#quote" class="slide-btn">Get a Quote</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="slide-btn">Get a Quote</a>
             </div>
         </div>
 
@@ -30,7 +30,7 @@
             <div class="slide-content">
                 <div class="yellow-dot"></div>
                 <h1 class="slide-title">Professional Clean, Every Time.</h1>
-                <a href="#quote" class="slide-btn">Get a Quote</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="slide-btn">Get a Quote</a>
             </div>
         </div>
     </div>

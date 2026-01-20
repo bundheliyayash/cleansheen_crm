@@ -84,7 +84,7 @@
     <section class="retail-content">
         <div class="retail-content-inner">
             <div class="retail-text">
-                <h2>Retail Cleaning in Surat</h2>
+                <h2>Retail Cleaning</h2>
 
                 <p>
                     Retail cleaning is essential but easy to overlook when you are busy running your store.
@@ -98,10 +98,10 @@
                 </p>
 
                 <div class="retail-buttons">
-                    <a href="tel:+919999999999" class="btn-solid">
+                    <a href="tel:+9118008903513" class="btn-solid">
                         <i class="fas fa-phone"></i> Call Us Now
                     </a>
-                    <a href="#request-form" class="btn-outline">Enquire with Us</a>
+                    <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-outline">Enquire with Us</a>
                 </div>
             </div>
 
@@ -176,10 +176,10 @@
             </p>
 
             <div class="retail-process-buttons">
-                <a href="tel:+919999999999" class="btn-solid">
+                <a href="tel:+9118008903513" class="btn-solid">
                     <i class="fas fa-phone"></i> Call Us
                 </a>
-                <a href="#request-form" class="btn-outline">Enquire with Us</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-outline">Enquire with Us</a>
             </div>
         </div>
     </section>

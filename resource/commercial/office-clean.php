@@ -130,8 +130,8 @@
             </p>
 
             <div class="office-intro-actions">
-                <a href="#request-form" class="btn-outline">Enquire</a>
-                <a href="tel:+919999999999" class="btn-solid">
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-outline">Enquire</a>
+                <a href="tel:+9118008903513" class="btn-solid">
                     <i class="fas fa-phone"></i> Call Us
                 </a>
             </div>

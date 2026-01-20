@@ -106,7 +106,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/club-house-3.jpg' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
+                    <img src="<?php echo BASE_URL . '/includes/image/club-house-3.png' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
                     <h3>High-Level, Ventilation & Hard-to-Reach</h3>
                     <p>
                         Cleaning of high-level lighting, ceiling fans, air-conditioning vents and fixtures
@@ -135,7 +135,7 @@
             </div>
 
             <div class="cw-about-media">
-                <img src="<?php echo BASE_URL . '/includes/image/club-one-1.webp' ?>" alt="Professional clubhouse cleaning">
+                <img src="<?php echo BASE_URL . '/includes/image/club-house-4.jpg' ?>" alt="Professional clubhouse cleaning">
             </div>
         </div>
     </section>

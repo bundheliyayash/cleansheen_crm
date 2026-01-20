@@ -190,20 +190,42 @@ document.addEventListener('DOMContentLoaded', function () {
   initReviewSlider();
 
   // FAQ accordion
-  const items = document.querySelectorAll('.faq-item');
-  items.forEach(item => {
-    const btn = item.querySelector('.faq-question');
-    if (btn) {
-      btn.addEventListener('click', () => {
-        // optional: close others for accordion style
-        items.forEach(i => {
-          if (i !== item) i.classList.remove('open');
-        });
-        item.classList.toggle('open');
-      });
-    }
-  });
+  initAccordion();
 });
+
+// Accordion functionality
+
+function initAccordion() {
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+    accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-bs-target');
+            const target = document.querySelector(targetId);
+            const parentSelector = target.getAttribute('data-bs-parent');
+            const parent = document.querySelector(parentSelector);
+            // Check if the button is currently collapsed (i.e., the target is hidden)
+            const isCollapsed = this.classList.contains('collapsed');
+            // If we are opening this item, then we need to close all others in the same parent
+            if (isCollapsed && parent) {
+                // Close all other open items in this parent
+                const openButtons = parent.querySelectorAll('.accordion-button:not(.collapsed)');
+                openButtons.forEach(openButton => {
+                    if (openButton !== this) {
+                        openButton.classList.add('collapsed');
+                        const openTargetId = openButton.getAttribute('data-bs-target');
+                        const openTarget = document.querySelector(openTargetId);
+                        openTarget.classList.remove('show');
+                    }
+                });
+            }
+            // Toggle the current button and target
+            this.classList.toggle('collapsed');
+            target.classList.toggle('show');
+        });
+    });
+}
+
+
 
 
 //   carper tab
@@ -223,64 +245,96 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-function searchFAQ() {
-  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-  const accordionItems = document.querySelectorAll('.accordion-item');
-
-  accordionItems.forEach(item => {
-    const question = item.querySelector('.accordion-button').textContent.toLowerCase();
-    const answer = item.querySelector('.accordion-body').textContent.toLowerCase();
-
-    if (question.includes(searchTerm) || answer.includes(searchTerm)) {
-      item.style.display = 'block';
-      if (searchTerm !== '') {
-        item.querySelector('.accordion-button').classList.remove('collapsed');
-        item.querySelector('.accordion-collapse').classList.add('show');
-      }
-    } else {
-      item.style.display = 'none';
-    }
-  });
-}
-
-// Search on Enter key
-document.getElementById('searchInput').addEventListener('keypress', function (e) {
-  if (e.key === 'Enter') {
-    searchFAQ();
-  }
-});
-
-// Smooth scroll for category buttons
-document.querySelectorAll('.category-btn').forEach(btn => {
-  btn.addEventListener('click', function (e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-    // Remove active class from all buttons
-    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-    // Add active class to clicked button
-    this.classList.add('active');
-  });
-});
-
-// Active category on scroll
-window.addEventListener('scroll', function () {
-  const categories = document.querySelectorAll('.faq-category');
-  const navButtons = document.querySelectorAll('.category-btn');
-
-  let current = '';
-  categories.forEach(category => {
-    const sectionTop = category.offsetTop;
-    if (pageYOffset >= sectionTop - 200) {
-      current = category.getAttribute('id');
-    }
-  });
-
-  navButtons.forEach(btn => {
-    btn.classList.remove('active');
-    if (btn.getAttribute('href') === '#' + current) {
-      btn.classList.add('active');
-    }
-  });
-});
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get all accordion buttons
+        const accordionButtons = document.querySelectorAll('.faq-accordion .accordion-button');
+        
+        // Initialize: All answers are closed by default
+        const allCollapses = document.querySelectorAll('.faq-accordion .accordion-collapse');
+        allCollapses.forEach(collapse => {
+            collapse.classList.remove('show');
+        });
+        
+        // Add click event to each button
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const targetCollapse = document.querySelector(targetId);
+                
+                // Close all other answers in the same category
+                const parentAccordion = this.closest('.accordion');
+                const allButtonsInCategory = parentAccordion.querySelectorAll('.accordion-button');
+                const allCollapsesInCategory = parentAccordion.querySelectorAll('.accordion-collapse');
+                
+                // If the clicked question is already open, close it
+                if (this.classList.contains('active')) {
+                    this.classList.remove('active');
+                    this.classList.add('collapsed');
+                    targetCollapse.classList.remove('show');
+                } else {
+                    // Close all in this category
+                    allButtonsInCategory.forEach(btn => {
+                        btn.classList.remove('active');
+                        btn.classList.add('collapsed');
+                    });
+                    
+                    allCollapsesInCategory.forEach(collapse => {
+                        collapse.classList.remove('show');
+                    });
+                    
+                    // Open the clicked one
+                    this.classList.remove('collapsed');
+                    this.classList.add('active');
+                    targetCollapse.classList.add('show');
+                }
+            });
+        });
+        
+        // Category Navigation
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    // Remove active class from all buttons
+                    document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Scroll to target
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 100,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Highlight active category on scroll
+        const observerOptions = {
+            root: null,
+            rootMargin: '-100px 0px -50% 0px',
+            threshold: 0
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const activeId = entry.target.id;
+                    document.querySelectorAll('.category-btn').forEach(btn => {
+                        btn.classList.remove('active');
+                        if (btn.getAttribute('href') === '#' + activeId) {
+                            btn.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }, observerOptions);
+        
+        // Observe both FAQ categories
+        document.querySelectorAll('.faq-category').forEach(category => {
+            observer.observe(category);
+        });
+    });

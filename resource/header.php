@@ -195,11 +195,11 @@
 
                 <!-- Header Right -->
                 <div class="header-right">
-                        <a href="tel:+13801006789" class="phone-number">
+                        <a href="tel:+9118008903513" class="phone-number">
                                 <i class="fas fa-phone"></i>
                                 (1800) 890 3513
                         </a>
-                        <a href="#" class="request-btn">Request Service</a>
+                        <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="request-btn">Request Service</a>
 
                         <!-- Hamburger Menu -->
                         <div class="hamburger" id="hamburger">

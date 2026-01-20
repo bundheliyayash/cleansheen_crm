@@ -54,22 +54,27 @@
         <div class="deep-features-inner">
             <div class="deep-features-grid">
                 <div>
+                    <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h4>Comprehensive Insurance</h4>
                     <p>Public liability cover.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fa fas fa-sync-alt"></i></div>
                     <h4>Happy Cleaners</h4>
                     <p>Fair rates and training.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Specially Trained</h4>
                     <p>End of tenancy &amp; deep clean experts.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-user-shield"></i></div>
                     <h4>Weekends Welcome</h4>
                     <p>No extra charges for weekends.</p>
                 </div>
                 <div>
+                    <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h4>Last‑Minute Bookings</h4>
                     <p>Subject to availability.</p>
                 </div>
@@ -81,7 +86,14 @@
     <section class="deep-office-banner">
         <div class="deep-office-inner">
             <h2>We Also Offer Deep Office Cleaning</h2>
-            <!-- big image banner of office cleaners here -->
+            <div class="eot-office-cleaning">
+                <p>
+                    We also offer professional deep office cleaning services designed to create a healthier and more productive working environment.
+                    From workstations and meeting rooms to kitchens and washrooms, our team ensures every area is thoroughly cleaned and sanitised.
+                    Ideal for regular maintenance or one-off deep cleans, tailored to suit your business needs.
+                </p>
+            </div>
+
         </div>
     </section>
 
@@ -114,7 +126,7 @@
                 </div>
             </div>
 
-            <a href="#request-form" class="btn-solid">Get a Deep Cleaning Quote</a>
+            <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Get a Deep Cleaning Quote</a>
         </div>
     </section>
 

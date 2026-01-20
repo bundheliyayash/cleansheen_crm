@@ -6,7 +6,7 @@
       <p class="cta-label">Need Professional Cleaning?</p>
       <h2 class="cta-title">Still Have Questions?</h2>
 
-      <a href="#request-form" class="cta-button"> Request Service Now </a>
+      <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="cta-button"> Request Service Now </a>
     </div>
 
     <!-- bottom green strip -->

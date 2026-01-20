@@ -37,26 +37,31 @@
             <div class="carp-features-grid">
                 <!-- 100% SATISFACTION -->
                 <div class="cf-item">
+                    <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h4>100% Satisfaction Guaranteed</h4>
                     <p>Free return visit if you are not happy.</p>
                 </div>
                 <!-- FLEXIBLE DAYS & TIMES -->
                 <div class="cf-item">
+                    <div class="os-icon"><i class="fa fas fa-sync-alt"></i></div>
                     <h4>Flexible Days &amp; Times</h4>
                     <p>Morning, evening and weekend appointments.</p>
                 </div>
                 <!-- STAIN & ODOUR REMOVAL -->
                 <div class="cf-item">
+                    <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Stain &amp; Odour Removal</h4>
                     <p>Treating common stains deep in the pile.</p>
                 </div>
                 <!-- CLEANING MATERIALS -->
                 <div class="cf-item">
+                    <div class="os-icon"><i class="fas fa-user-shield"></i></div>
                     <h4>Cleaning Materials</h4>
                     <p>All detergents and equipment supplied.</p>
                 </div>
                 <!-- LATEST TECHNOLOGY -->
                 <div class="cf-item">
+                    <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h4>Latest Technology</h4>
                     <p>Industrial‑grade extraction machines.</p>
                 </div>
@@ -70,7 +75,7 @@
             <h2>Professional Carpet Cleaning Service</h2>
             <p>Short description of experience, service quality and areas covered.</p>
             <p>Mention combining with end of tenancy, deep clean, after‑building cleaning, etc.</p>
-            <a href="#carpet-booking" class="btn-solid">Book Now</a>
+            <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Book Now</a>
         </div>
     </section>
 
@@ -82,7 +87,7 @@
                 <p>Explain reviews, customer focus, and why clients rebook.</p>
             </div>
             <div class="carp-rated-video">
-                <img src="assets/images/carpet-video.jpg" alt="Carpet cleaning video">
+                <img src="<?php echo BASE_URL . 'includes/image/carpet-cleaning-1.jpg' ?>" alt="Carpet cleaning video">
             </div>
         </div>
     </section>

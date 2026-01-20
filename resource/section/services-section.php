@@ -45,7 +45,7 @@
             with high standards and a company that cares for its employees,
             get in touch with us today.
           </p>
-          <a href="#" class="card-btn">
+          <a href="<?php echo BASE_URL . 'resource/commercial/office-clean.php'; ?>" class="card-btn">
             Commercial Services
             <i class="fas fa-arrow-right"></i>
           </a>
@@ -76,7 +76,7 @@
             company with excellent reviews, friendly customer service, and
             motivated staff, contact us today.
           </p>
-          <a href="#" class="card-btn">
+          <a href="<?php echo BASE_URL . 'resource/domestic/domestic-clean.php ' ?>" class="card-btn">
             Domestic Services
             <i class="fas fa-arrow-right"></i>
           </a>

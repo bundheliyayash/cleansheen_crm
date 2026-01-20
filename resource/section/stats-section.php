@@ -17,7 +17,7 @@
             <i class="fas fa-smile"></i>
           </div>
           <div class="stat-number">
-            <span class="counter" data-target="5000">0</span>
+            <span class="counter" data-target="5000">750</span>
             <span class="suffix">+</span>
           </div>
           <p class="stat-label">Happy Customers</p>
@@ -29,7 +29,7 @@
             <i class="fas fa-award"></i>
           </div>
           <div class="stat-number">
-            <span class="counter" data-target="7">0</span>
+            <span class="counter" data-target="7">12</span>
             <span class="suffix">+</span>
           </div>
           <p class="stat-label">Years Experience</p>
@@ -41,7 +41,7 @@
             <i class="fas fa-users"></i>
           </div>
           <div class="stat-number">
-            <span class="counter" data-target="200">0</span>
+            <span class="counter" data-target="200">125</span>
             <span class="suffix">+</span>
           </div>
           <p class="stat-label">Trained Cleaners</p>
@@ -53,7 +53,7 @@
             <i class="fas fa-building"></i>
           </div>
           <div class="stat-number">
-            <span class="counter" data-target="500">0</span>
+            <span class="counter" data-target="500">1200</span>
             <span class="suffix">+</span>
           </div>
           <p class="stat-label">Clients Served</p>

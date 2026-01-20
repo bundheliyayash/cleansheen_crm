@@ -28,7 +28,7 @@
     <section class="ab-hero">
         <!-- background image: after-building kitchen -->
         <div class="ab-hero-overlay">
-            <h1>After‑Building Cleaning</h1>
+            <h1 class="dom-hero-card">After‑Building Cleaning</h1>
             <div class="ab-hero-cards">
                 <!-- Card 1: 100% SATISFACTION GUARANTEED -->
                 <div class="ab-hero-card">
@@ -55,37 +55,36 @@
             <div class="ab-features-grid">
                 <!-- COMPREHENSIVE INSURANCE -->
                 <div class="af-item">
+                    <div class="os-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <h4>Comprehensive Insurance</h4>
                     <p>Public liability cover for after‑building work.</p>
                 </div>
                 <!-- SUPERVISOR CHECKED -->
                 <div class="af-item">
+                    <div class="os-icon"><i class="fa fas fa-sync-alt"></i></div>
                     <h4>Supervisor Checked</h4>
                     <p>Supervisors oversee bookings and quality.</p>
                 </div>
                 <!-- KEYS PICKED UP -->
                 <div class="af-item">
+                    <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Keys Picked Up</h4>
                     <p>Collection from agents or another location if required.</p>
                 </div>
                 <!-- HAPPY CLEANERS -->
                 <div class="af-item">
+                    <div class="os-icon"><i class="fas fa-user-shield"></i></div>
                     <h4>Happy Cleaners</h4>
                     <p>Fairly paid cleaners experienced in after‑build cleans.</p>
                 </div>
                 <!-- SPECIALLY TRAINED -->
                 <div class="af-item">
+                    <div class="os-icon"><i class="fas fa-wallet"></i></div>
                     <h4>Specially Trained</h4>
                     <p>Trained in builders, end of tenancy and deep cleaning.</p>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- QUOTE CTA BAR -->
-    <section class="ab-quote-bar">
-        <!-- single full‑width button: Get an instant quote online -->
-        <a href="#quote-form" class="btn-solid">Get an Instant Quote Online</a>
     </section>
 
     <!-- CHECKLIST (2 COLUMN BULLETS) -->
@@ -112,6 +111,11 @@
             </div>
         </div>
     </section>
+    <!-- QUOTE CTA BAR -->
+    <section class="ab-quote-bar">
+        <!-- single full‑width button: Get an instant quote online -->
+        <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Get an Instant Quote Online</a>
+    </section>
 
     <!-- THREE SIMPLE STEPS + VIDEO -->
     <section class="ab-steps">
@@ -126,7 +130,7 @@
             </div>
             <div class="ab-steps-video">
                 <!-- YouTube embed / thumbnail -->
-                <img src="assets/images/after-build-video.jpg" alt="After-building cleaning video">
+                <img src="<?php echo BASE_URL . 'includes/image/after-clean.webp' ?>" alt="After-building cleaning video">
             </div>
         </div>
     </section>

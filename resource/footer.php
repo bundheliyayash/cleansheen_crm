@@ -22,18 +22,22 @@
                 <h4>Contact</h4>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
-                    <a href="tel:+919999999999">+91 99 99 99 99 99</a>
+                    <a href="tel:+9118008903513">+91 1800 890 3513</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+916353511959">+91 63535 11959</a>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <a href="mailto:info@cleansheen.in">info@cleansheen.in</a>
+                    <a href="mailto:cleansheencleaning@gmail.com">cleansheencleaning@gmail.com</a>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-location-dot"></i>
                     <p>Surat, Gujarat, India</p>
                 </div>
 
-                <a href="#request-form" class="footer-cta">
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="footer-cta">
                     Book a Free Consultation
                     <span class="footer-cta-icon"><i class="fas fa-arrow-up-right-from-square"></i></span>
                 </a>

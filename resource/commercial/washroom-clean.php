@@ -98,7 +98,7 @@
                     standalone service. Tell us how many washrooms you have and how often they are used, and we
                     will propose a visit schedule that keeps everything topped up and hygienic.
                 </p>
-                <a href="#request-form" class="btn-solid">Get a Quote</a>
+                <a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>" class="btn-solid">Get a Quote</a>
             </div>
         </div>
     </section>
