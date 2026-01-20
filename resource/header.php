@@ -67,16 +67,26 @@
             <!-- <li>
                                 <a href="#">Customers</a>
                                 <ul class="submenu">
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/commercial-offices.php' ?>">Commercial offices</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/education.php' ?>">Education</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/estate-agent.php' ?>">Estate agents</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/hotels.php' ?>">Hotels</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/property-management-com.php' ?>">Property management companies</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/industrial-com.php' ?>">Industrial companies</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/medical-org.php' ?>">Medical organisations</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/bars-restaurants.php' ?>">Bars and restaurants</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/retail-showrooms.php' ?>">Retail and showrooms</a></li>
-                                        <li><a href="<?php echo BASE_URL . 'resource/customers/embassies.php' ?>">Embassies</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/commercial-offices.php' 
+                                                        ?>">Commercial offices</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/education.php' 
+                                                        ?>">Education</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/estate-agent.php' 
+                                                        ?>">Estate agents</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/hotels.php' 
+                                                        ?>">Hotels</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/property-management-com.php' 
+                                                        ?>">Property management companies</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/industrial-com.php' 
+                                                        ?>">Industrial companies</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/medical-org.php' 
+                                                        ?>">Medical organisations</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/bars-restaurants.php' 
+                                                        ?>">Bars and restaurants</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/retail-showrooms.php' 
+                                                        ?>">Retail and showrooms</a></li>
+                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/embassies.php' 
+                                                        ?>">Embassies</a></li>
                                 </ul>
                         </li> -->
             <li>
@@ -182,12 +192,16 @@
                 <ul class="submenu">
                     <li><a href="<?php echo BASE_URL . 'resource/about/about-us.php' ?>">About Us</a></li>
                     <li><a href="<?php echo BASE_URL . 'resource/about/started.php' ?>">How we started</a></li>
-                    <!-- <li><a href="<?//php echo BASE_URL . 'resource/about/awards.php' ?>">Accreditations & Awards</a></li> -->
+                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/awards.php' 
+                                                                ?>">Accreditations & Awards</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/our-cleaners.php' ?>">Our cleaners</a></li>
-                    <!-- <li><a href="<?//php echo BASE_URL . 'resource/about/sustainability.php' ?>">Sustainability</a></li> -->
-                    <!-- <li><a href="<?//php echo BASE_URL . 'resource/about/work-us.php' ?>">Work for us</a></li> -->
+                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/sustainability.php' 
+                                                                ?>">Sustainability</a></li> -->
+                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/work-us.php' 
+                                                                ?>">Work for us</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/faq.php' ?>">FAQ</a></li>
-                    <!-- <li><a href="<?//php echo BASE_URL . 'resource/about/news.php' ?>">News</a></li> -->
+                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/news.php' 
+                                                                ?>">News</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>">Contact</a></li>
                 </ul>
             </li>
