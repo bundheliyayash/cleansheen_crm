@@ -132,7 +132,7 @@
                 </p>
             </div>
             <div class="eco-about-video">
-                <img src="<?php echo BASE_URL . '/includes/image/eco-friendly-1.avif'?>" alt="Eco-friendly cleaning process">
+                <img src="<?php echo BASE_URL . 'includes/image/eco-friendly-1.avif' ?>" alt="Eco-friendly cleaning process">
             </div>
         </div>
     </section>
@@ -144,7 +144,7 @@
 
             <div class="eco-regular-content">
                 <div class="eco-regular-media">
-                    <img src="<?php echo BASE_URL . '/includes/image/eco-friendly-2.avif'?>" alt="Eco-friendly regular cleaning">
+                    <img src="<?php echo BASE_URL . 'includes/image/eco-friendly-2.avif' ?>" alt="Eco-friendly regular cleaning">
                 </div>
 
                 <div class="eco-regular-text">

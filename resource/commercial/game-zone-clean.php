@@ -84,7 +84,7 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-1.jpg' ?>" alt="Gaming Area & Equipment">
+                    <img src="<?php echo BASE_URL . 'includes/image/game-zone-1.jpg' ?>" alt="Gaming Area & Equipment">
                     <h3>Gaming Area & Equipment</h3>
                     <p>
                         Deep cleaning and sanitising of arcade machines, gaming consoles, VR equipment,
@@ -95,7 +95,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-2.webp' ?>" alt="Front-of-House & Customer Areas">
+                    <img src="<?php echo BASE_URL . 'includes/image/game-zone-2.webp' ?>" alt="Front-of-House & Customer Areas">
                     <h3>Front-of-House & Customer Areas</h3>
                     <p>
                         Detailed cleaning of reception desks, ticket counters, glass displays and snack areas
@@ -107,7 +107,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/game-zone-3.jpg' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
+                    <img src="<?php echo BASE_URL . 'includes/image/game-zone-3.jpg' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
                     <h3>High-Level, Ventilation & Hard-to-Reach</h3>
                     <p>
                         Cleaning of high-level lighting, speakers, air-conditioning vents and ceiling fixtures
@@ -138,7 +138,7 @@
 
             <div class="cw-about-media">
                 <!-- replace with video iframe ya image -->
-                <img src="<?php echo BASE_URL . '/includes/image/game-one-1.webp' ?>" alt="Window cleaning video">
+                <img src="<?php echo BASE_URL . 'includes/image/game-one-1.webp' ?>" alt="Window cleaning video">
             </div>
         </div>
     </section>

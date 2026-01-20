@@ -3,7 +3,7 @@
     <div class="slider-container">
         <!-- Slide 1 -->
         <div class="slide active">
-            <img src="<?php echo BASE_URL . '/includes/image/hero-slider-1.png'?>" alt="Cleaning Service"
+            <img src="<?php echo BASE_URL . 'includes/image/hero-slider-1.png' ?>" alt="Cleaning Service"
                 class="slide-image" />
             <div class="slide-content">
                 <div class="yellow-dot"></div>
@@ -14,7 +14,7 @@
 
         <!-- Slide 2 -->
         <div class="slide">
-            <img src="<?php echo BASE_URL . '/includes/image/hero-slider-2.jpeg'?>" alt="Deep Cleaning"
+            <img src="<?php echo BASE_URL . 'includes/image/hero-slider-2.jpeg' ?>" alt="Deep Cleaning"
                 class="slide-image" />
             <div class="slide-content">
                 <div class="yellow-dot"></div>
@@ -25,7 +25,7 @@
 
         <!-- Slide 3 -->
         <div class="slide">
-            <img src="<?php echo BASE_URL . '/includes/image/hero-slider-3.jpg'?>" alt="Office Cleaning"
+            <img src="<?php echo BASE_URL . 'includes/image/hero-slider-3.jpg' ?>" alt="Office Cleaning"
                 class="slide-image" />
             <div class="slide-content">
                 <div class="yellow-dot"></div>

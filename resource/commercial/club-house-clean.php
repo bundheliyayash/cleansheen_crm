@@ -84,7 +84,7 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/club-house-1.jpg' ?>" alt="Common Areas & Facilities">
+                    <img src="<?php echo BASE_URL . 'includes/image/club-house-1.jpg' ?>" alt="Common Areas & Facilities">
                     <h3>Common Areas & Facilities</h3>
                     <p>
                         Deep cleaning and sanitising of lounges, meeting rooms, indoor games areas,
@@ -95,7 +95,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/club-house-2.webp' ?>" alt="Reception & Member Areas">
+                    <img src="<?php echo BASE_URL . 'includes/image/club-house-2.webp' ?>" alt="Reception & Member Areas">
                     <h3>Reception & Member Areas</h3>
                     <p>
                         Detailed cleaning of reception desks, waiting areas, notice boards, glass panels
@@ -106,7 +106,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/club-house-3.png' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
+                    <img src="<?php echo BASE_URL . 'includes/image/club-house-3.png' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
                     <h3>High-Level, Ventilation & Hard-to-Reach</h3>
                     <p>
                         Cleaning of high-level lighting, ceiling fans, air-conditioning vents and fixtures
@@ -135,7 +135,7 @@
             </div>
 
             <div class="cw-about-media">
-                <img src="<?php echo BASE_URL . '/includes/image/club-house-4.jpg' ?>" alt="Professional clubhouse cleaning">
+                <img src="<?php echo BASE_URL . 'includes/image/club-house-4.jpg' ?>" alt="Professional clubhouse cleaning">
             </div>
         </div>
     </section>

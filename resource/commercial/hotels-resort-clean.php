@@ -84,7 +84,7 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/hotel-resort-1.webp' ?>" alt="Guest Rooms & Common Areas">
+                    <img src="<?php echo BASE_URL . 'includes/image/hotel-resort-1.webp' ?>" alt="Guest Rooms & Common Areas">
                     <h3>Guest Rooms &amp; Common Areas</h3>
                     <p>
                         Detailed cleaning and sanitising of guest rooms, suites, corridors, lounges and seating areas
@@ -95,7 +95,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/hotel-resort-2.webp' ?>" alt="Reception, Dining & Public Areas">
+                    <img src="<?php echo BASE_URL . 'includes/image/hotel-resort-2.webp' ?>" alt="Reception, Dining & Public Areas">
                     <h3>Reception, Dining &amp; Public Areas</h3>
                     <p>
                         Thorough cleaning of reception desks, lobbies, restaurants, cafés and banquet spaces
@@ -106,7 +106,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/hotel-resort-4.avif' ?>" alt="High-Level, Ventilation & Back-of-House">
+                    <img src="<?php echo BASE_URL . 'includes/image/hotel-resort-4.avif' ?>" alt="High-Level, Ventilation & Back-of-House">
                     <h3>High-Level, Ventilation &amp; Back-of-House</h3>
                     <p>
                         Cleaning of high-level fixtures, lighting, air-conditioning vents and service areas
@@ -135,7 +135,7 @@
             </div>
 
             <div class="cw-about-media">
-                <img src="<?php echo BASE_URL . '/includes/image/hotel-resort-main.jpg' ?>" alt="Hotel and resort cleaning services">
+                <img src="<?php echo BASE_URL . 'includes/image/hotel-resort-main.jpg' ?>" alt="Hotel and resort cleaning services">
             </div>
         </div>
     </section>

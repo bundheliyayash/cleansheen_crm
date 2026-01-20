@@ -94,16 +94,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <title>Contact Us</title>
     <style>
-        input,
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-        }
+    input,
+    textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
 
-        button {
-            padding: 10px 20px;
-        }
+    button {
+        padding: 10px 20px;
+    }
     </style>
     <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/style.css" />
 

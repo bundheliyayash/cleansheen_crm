@@ -44,7 +44,7 @@
         </div>
     </section>
 
-    <!-- TWO WHITE BOXES -->    
+    <!-- TWO WHITE BOXES -->
     <section class="hk-cards">
         <div class="hk-cards-inner">
             <article class="hk-card">
@@ -82,7 +82,7 @@
                 </p>
             </div>
             <div class="hk-video">
-                <img src="<?php echo BASE_URL . '/includes/image/Housekeeping-1.webp'?>" alt="Professional housekeeping service">
+                <img src="<?php echo BASE_URL . 'includes/image/Housekeeping-1.webp' ?>" alt="Professional housekeeping service">
             </div>
         </div>
     </section>

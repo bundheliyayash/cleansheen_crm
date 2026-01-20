@@ -84,7 +84,7 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/studio-apartment-2.webp' ?>" alt="Living & Sleeping Area">
+                    <img src="<?php echo BASE_URL . 'includes/image/studio-apartment-2.webp' ?>" alt="Living & Sleeping Area">
                     <h3>Living & Sleeping Area</h3>
                     <p>
                         Thorough cleaning of floors, furniture, wardrobes, desks and seating areas.
@@ -93,7 +93,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/studio-apartment-3.avif' ?>" alt="Kitchenette & Dining Area">
+                    <img src="<?php echo BASE_URL . 'includes/image/studio-apartment-3.avif' ?>" alt="Kitchenette & Dining Area">
                     <h3>Kitchenette & Dining Area</h3>
                     <p>
                         Deep cleaning of countertops, sinks, appliances, cabinets and splashbacks.
@@ -102,7 +102,7 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/studio-apartment-4.jpeg' ?>" alt="Bathroom & Sanitary Areas">
+                    <img src="<?php echo BASE_URL . 'includes/image/studio-apartment-4.jpeg' ?>" alt="Bathroom & Sanitary Areas">
                     <h3>Bathroom & Sanitary Areas</h3>
                     <p>
                         Professional sanitising of toilets, showers, basins, mirrors and fittings
@@ -128,7 +128,7 @@
             </div>
 
             <div class="cw-about-media">
-                <img src="<?php echo BASE_URL . '/includes/image/studio-apartment-main.jpg' ?>" alt="Hotel and resort cleaning services">
+                <img src="<?php echo BASE_URL . 'includes/image/studio-apartment-main.jpg' ?>" alt="Hotel and resort cleaning services">
             </div>
         </div>
     </section>

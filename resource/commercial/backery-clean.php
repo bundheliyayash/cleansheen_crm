@@ -13,7 +13,9 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
 
     <!-- Icons + CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -68,9 +70,11 @@
     <section class="cw-intro">
         <div class="cw-intro-inner">
             <h2> Commercial Bakery Cleaning for Your City </h2>
-            <p>Professional bakery cleaning keeps your production areas hygienic, protects equipment, and helps you meet food‑safety standards so customers always trust your products.
+            <p>Professional bakery cleaning keeps your production areas hygienic, protects equipment, and helps you meet
+                food‑safety standards so customers always trust your products.
             </p>
-            <p> Regular cleans remove flour dust, grease and food residues that can damage ovens, mixers and ventilation over time.</p>
+            <p> Regular cleans remove flour dust, grease and food residues that can damage ovens, mixers and ventilation
+                over time.</p>
         </div>
     </section>
 
@@ -79,32 +83,40 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/backery-1.jpg' ?>" alt="Production Area & Equipment">
+                    <img src="<?php echo BASE_URL . 'includes/image/backery-1.jpg' ?>"
+                        alt="Production Area & Equipment">
                     <h3>Production Area & Equipment</h3>
                     <p>
-                        Deep cleaning for prep tables, mixers, ovens, provers, racks and trolleys so food‑contact surfaces stay safe and compliant.
+                        Deep cleaning for prep tables, mixers, ovens, provers, racks and trolleys so food‑contact
+                        surfaces stay safe and compliant.
 
-                        Degreasing of walls, floors and ceilings to remove baked‑on fats, steam deposits and flour build‑up in high‑use zones.
+                        Degreasing of walls, floors and ceilings to remove baked‑on fats, steam deposits and flour
+                        build‑up in high‑use zones.
                     </p>
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/backery-2.jpg' ?>" alt="Front‑of‑House & Display">
+                    <img src="<?php echo BASE_URL . 'includes/image/backery-2.jpg' ?>" alt="Front‑of‑House & Display">
                     <h3>Front‑of‑House & Display</h3>
                     <p>
-                        Detailed cleaning of display counters, glass cabinets and serving areas so pastries and breads are always presented in a fresh environment.
+                        Detailed cleaning of display counters, glass cabinets and serving areas so pastries and breads
+                        are always presented in a fresh environment.
 
-                        Scheduled floor and touch‑point cleaning around customer seating, payment counters and entrance doors to keep the bakery looking welcoming.
+                        Scheduled floor and touch‑point cleaning around customer seating, payment counters and entrance
+                        doors to keep the bakery looking welcoming.
                     </p>
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . '/includes/image/backery-3.jpg' ?>" alt="High‑Level, Ventilation & Hard‑to‑Reach">
+                    <img src="<?php echo BASE_URL . 'includes/image/backery-3.jpg' ?>"
+                        alt="High‑Level, Ventilation & Hard‑to‑Reach">
                     <h3>High‑Level, Ventilation & Hard‑to‑Reach</h3>
                     <p>
-                        Cleaning of high‑level pipes, lights, extract hoods and vents to reduce dust and flour accumulation that can affect air quality.
+                        Cleaning of high‑level pipes, lights, extract hoods and vents to reduce dust and flour
+                        accumulation that can affect air quality.
 
-                        Safe methods for accessing awkward areas around ovens and ducting without disrupting your production schedule.
+                        Safe methods for accessing awkward areas around ovens and ducting without disrupting your
+                        production schedule.
                     </p>
                 </article>
             </div>
@@ -117,16 +129,18 @@
             <div class="cw-about-text">
                 <h2>Why Bakeries Choose Our Cleaning Team</h2>
                 <p>
-                    Flexible visits arranged around baking times and overnight production, reducing downtime for your business.
+                    Flexible visits arranged around baking times and overnight production, reducing downtime for your
+                    business.
                 </p>
                 <p>
-                    Consistent supervisors, checklists and hygiene reports so you can demonstrate regular cleaning to auditors and brand partners.
+                    Consistent supervisors, checklists and hygiene reports so you can demonstrate regular cleaning to
+                    auditors and brand partners.
                 </p>
             </div>
 
             <div class="cw-about-media">
                 <!-- replace with video iframe ya image -->
-                <img src="<?php echo BASE_URL . '/includes/image/backery-4.png' ?>" alt="Window cleaning video">
+                <img src="<?php echo BASE_URL . 'includes/image/backery-4.png' ?>" alt="Window cleaning video">
             </div>
         </div>
     </section>

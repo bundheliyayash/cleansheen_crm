@@ -50,7 +50,7 @@
             <!-- Review 2 -->
             <div class="review-card">
               <div class="review-header">
-                <img src="<?php echo BASE_URL . '/includes/images/reviewer2.jpg'?>" class="reviewer-img" alt="" />
+                <img src="<?php echo BASE_URL . 'includes/images/reviewer2.jpg' ?>" class="reviewer-img" alt="" />
                 <div class="reviewer-info">
                   <h4>Priya Desai</h4>
                   <p>Temple Trust, Vadodara</p>
@@ -145,8 +145,8 @@
         <!-- Video 1 -->
         <div class="video-card">
           <div class="video-wrapper">
-            <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg'?>">
-              <source src="<?php echo BASE_URL . 'includes/video/cleanvideo.mp4'?>" type="video/mp4" />
+            <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg' ?>">
+              <source src="<?php echo BASE_URL . 'includes/video/cleanvideo.mp4' ?>" type="video/mp4" />
             </video>
             <button class="video-play" onclick="togglePlay(this)">
               <i class="fas fa-play"></i>
@@ -161,8 +161,8 @@
         <!-- Video 2 -->
         <div class="video-card">
           <div class="video-wrapper">
-            <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg'?>">
-              <source src="<?php echo BASE_URL . 'includes/video/cleanvideo.mp4'?>" type="video/mp4" />
+            <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg' ?>">
+              <source src="<?php echo BASE_URL . 'includes/video/cleanvideo.mp4' ?>" type="video/mp4" />
             </video>
             <button class="video-play" onclick="togglePlay(this)">
               <i class="fas fa-play"></i>
