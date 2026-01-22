@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -35,7 +39,7 @@
                     alt="Cafe and restaurant cleaning services">
             </div>
             <div class="sector-text">
-                <h2>Cafés &amp; Restaurant Cleaning Services</h2>
+                <h1>Cafés &amp; Restaurant Cleaning Services</h1>
                 <p>
                     Cafés and restaurants require strict cleanliness and hygiene standards
                     to ensure customer safety and maintain brand reputation. A clean dining

@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -34,7 +38,7 @@
                 <img src="<?php echo BASE_URL . 'includes/image/resort-cleaning.jpg' ?>" alt="Resort cleaning services">
             </div>
             <div class="sector-text">
-                <h2>Resort Cleaning Services</h2>
+                <h1>Resort Cleaning Services</h1>
                 <p>
                     Resorts require a high standard of cleanliness to deliver a premium
                     guest experience. From guest rooms to outdoor leisure areas, consistent

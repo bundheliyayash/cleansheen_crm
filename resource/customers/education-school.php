@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -34,7 +38,7 @@
                     alt="School cleaning services in Gujarat">
             </div>
             <div class="sector-text">
-                <h2>School Cleaning Services – Gujarat</h2>
+                <h1>School Cleaning Services – Gujarat</h1>
                 <p>
                     Schools require a clean, safe, and hygienic environment to support
                     students’ health and learning. Across Gujarat, including cities such as

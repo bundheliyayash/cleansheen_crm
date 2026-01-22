@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -35,7 +39,7 @@
                     alt="Food chain and QSR cleaning services">
             </div>
             <div class="sector-text">
-                <h2>Food Chain &amp; QSR Cleaning Services</h2>
+                <h1>Food Chain &amp; QSR Cleaning Services</h1>
                 <p>
                     Food chains and quick service restaurants operate with high customer
                     turnover and strict hygiene requirements. Consistent cleaning is

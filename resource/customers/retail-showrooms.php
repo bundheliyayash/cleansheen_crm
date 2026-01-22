@@ -6,7 +6,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cleansheen - Cleaning Services</title>
+        
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -36,7 +40,7 @@
                         alt="Retail store and showroom cleaning services">
                 </div>
                 <div class="sector-text">
-                    <h2>Retail Store &amp; Showroom Cleaning Services</h2>
+                    <h1>Retail Store &amp; Showroom Cleaning Services</h1>
                     <p>
                         Retail stores and showrooms require a clean and well-presented
                         environment to highlight products and enhance customer experience.

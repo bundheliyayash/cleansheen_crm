@@ -93,7 +93,11 @@ include '../../config.php';
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -119,7 +123,7 @@ include '../../config.php';
     <section class="services-section">
         <div class="services-container">
             <div class="section-header">
-                <h2>Contact Us</h2>
+                <h1>Contact Us</h1>
                 <p>Get in touch with Clean Sheen for professional cleaning services. We're here to answer your questions and provide the best cleaning solutions.</p>
             </div>
             <div class="contact-container">

@@ -2,7 +2,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home 02 – Demo 01 – Qleen</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once 'resource/seo_meta.php'; ?>
+    <title><?php echo $seo_title; ?></title>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="Demo 01 - Qleen » Feed" href="https://qleen.bold-themes.com/demo-01/feed/">

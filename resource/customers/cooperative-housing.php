@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -35,7 +39,7 @@
                     alt="Co-operative housing societies in Gujarat">
             </div>
             <div class="sector-text">
-                <h2>Co-operative Housing Society Cleaning – Gujarat</h2>
+                <h1>Co-operative Housing Society Cleaning – Gujarat</h1>
                 <p>
                     Co-operative housing societies across Gujarat require regular and
                     well-organised cleaning to maintain hygiene, safety, and a pleasant

@@ -6,7 +6,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cleansheen - Cleaning Services</title>
+  
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -56,7 +60,7 @@
   <!-- INTRO + GREEN ICON STRIP -->
   <section class="oneoff-intro-strip">
     <div class="oneoff-intro-inner">
-      <h2>One-Off Cleaning Service</h2>
+      <h1>One-Off Cleaning Service</h1>
       <p>
         Our one-off cleaning services are ideal for deep cleans, special occasions,
         or when your home needs extra attention. All work is carried out by fully

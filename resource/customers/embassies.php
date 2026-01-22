@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -34,7 +38,7 @@
                     alt="Embassy and diplomatic office cleaning services">
             </div>
             <div class="sector-text">
-                <h2>Embassy &amp; Diplomatic Office Cleaning Services</h2>
+                <h1>Embassy &amp; Diplomatic Office Cleaning Services</h1>
                 <p>
                     Embassies, consulates, and diplomatic offices require a discreet,
                     secure, and highly professional cleaning approach. Clean and

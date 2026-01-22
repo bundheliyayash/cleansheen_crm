@@ -2,7 +2,6 @@
     <div class="header-container">
         <!-- Logo -->
         <div class="logo">
-            <!-- <a href="<?php echo BASE_URL; ?>"><span>Clean</span>Sheen<sup></sup></a> -->
             <a href="<?php echo BASE_URL; ?>"><img src="<?php echo BASE_URL . 'includes/image/logo.png' ?>"
                     width="125px" height="70px" alt=""></a>
         </div>
@@ -64,38 +63,13 @@
                             Services</a></li>
                 </ul>
             </li>
-            <!-- <li>
-                                <a href="#">Customers</a>
-                                <ul class="submenu">
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/commercial-offices.php' 
-                                                        ?>">Commercial offices</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/education.php' 
-                                                        ?>">Education</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/estate-agent.php' 
-                                                        ?>">Estate agents</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/hotels.php' 
-                                                        ?>">Hotels</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/property-management-com.php' 
-                                                        ?>">Property management companies</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/industrial-com.php' 
-                                                        ?>">Industrial companies</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/medical-org.php' 
-                                                        ?>">Medical organisations</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/bars-restaurants.php' 
-                                                        ?>">Bars and restaurants</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/retail-showrooms.php' 
-                                                        ?>">Retail and showrooms</a></li>
-                                        <li><a href="<? //php echo BASE_URL . 'resource/customers/embassies.php' 
-                                                        ?>">Embassies</a></li>
-                                </ul>
-                        </li> -->
             <li>
                 <a href="#">Customers</a>
                 <ul class="submenu">
 
                     <!-- Commercial & Corporate -->
                     <li>
-                        <a href="#">Commercial & Corporate</a>
+                        <a href="#" tabindex="0">Commercial & Corporate</a>
                         <ul class="ssubmenu">
                             <li><a href="<?php echo BASE_URL . 'resource/customers/commercial-offices.php' ?>">Commercial
                                     Offices</a></li>
@@ -161,19 +135,6 @@
                         </ul>
                     </li>
 
-                    <!-- Architecture & Projects -->
-                    <!-- <li>
-                        <a href="#">Architecture & Projects</a>
-                        <ul class="ssubmenu">
-                            <li><a href="<? //php echo BASE_URL . 'resource/customers/architect-project.php' 
-                                                ?>">Architect
-                                    Projects</a></li>
-                            <li><a href="<? //php echo BASE_URL . 'resource/customers/project-management.php' 
-                                                ?>">Project
-                                    Management</a></li>
-                        </ul>
-                    </li> -->
-
                     <!-- Government -->
                     <li>
                         <a href="#">Government & Institutions</a>
@@ -192,16 +153,8 @@
                 <ul class="submenu">
                     <li><a href="<?php echo BASE_URL . 'resource/about/about-us.php' ?>">About Us</a></li>
                     <li><a href="<?php echo BASE_URL . 'resource/about/started.php' ?>">How we started</a></li>
-                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/awards.php' 
-                                                                ?>">Accreditations & Awards</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/our-cleaners.php' ?>">Our cleaners</a></li>
-                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/sustainability.php' 
-                                                                ?>">Sustainability</a></li> -->
-                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/work-us.php' 
-                                                                ?>">Work for us</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/faq.php' ?>">FAQ</a></li>
-                    <!-- <li><a href="<? //php echo BASE_URL . 'resource/about/news.php' 
-                                                                ?>">News</a></li> -->
                     <li><a href="<?php echo BASE_URL . 'resource/about/contact-us.php' ?>">Contact</a></li>
                 </ul>
             </li>

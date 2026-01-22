@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -32,7 +36,7 @@
         <div class="services-container">
             <!-- Section Header -->
             <div class="section-header">
-                <h2>Who We Are</h2>
+                <h1>Who We Are</h1>
                 <p>
                     How does it feel to live in a place where cleanliness takes a backseat? Imagine inviting guests to your home or clients to your workplace—the sight of dirt and an unclean space creates a disappointing first impression. In today's fast-paced lifestyle, maintaining a spotless home is both difficult and time-consuming. That's where Clean Sheen comes to the rescue—your personal housekeeping and cleaning partner.
                 </p>

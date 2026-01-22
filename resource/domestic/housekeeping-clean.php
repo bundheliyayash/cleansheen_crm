@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -48,7 +52,7 @@
     <section class="hk-cards">
         <div class="hk-cards-inner">
             <article class="hk-card">
-                <h2>What Do Our Housekeeping Services Cover?</h2>
+                <h1>What Do Our Housekeeping Services Cover?</h1>
                 <p>
                     Our housekeeping service is flexible and tailored to your needs. Tasks can
                     include laundry and ironing, changing bed linen, light cleaning and

@@ -92,7 +92,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 
 <head>
-    <title>Contact Us</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once 'seo_meta.php'; ?>
+    <title><?php echo $seo_title; ?></title>
     <style>
     input,
     textarea {
@@ -111,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
     <?php include ROOT_PATH . 'resource/header.php'; ?>
-    <h2>Contact Us</h2>
+    <h1>Contact Us</h1>
 
     <?php if (!empty($success)) echo "<p style='color:green'>$success</p>"; ?>
     <?php if (!empty($error)) echo "<p style='color:red'>$error</p>"; ?>

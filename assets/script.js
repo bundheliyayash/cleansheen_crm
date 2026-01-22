@@ -165,17 +165,29 @@ function togglePlay(btn) {
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
 
-hamburger.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
-});
+if (hamburger && navMenu) {
+  hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+    hamburger.classList.toggle("active");
+  });
+}
 
-// Mobile submenu toggle
-const menuItems = document.querySelectorAll(".nav-menu > li");
+// Handle all submenus on mobile (Recursive support)
+const allSubmenuItems = document.querySelectorAll(".nav-menu li");
 
-menuItems.forEach((item) => {
+allSubmenuItems.forEach((item) => {
   item.addEventListener("click", function (e) {
     if (window.innerWidth <= 992) {
-      this.classList.toggle("active");
+      const link = this.querySelector(':scope > a');
+      const submenu = this.querySelector(':scope > .submenu, :scope > .ssubmenu');
+
+      if (submenu && (e.target === link || e.target.closest('a') === link)) {
+        if (link.getAttribute('href') === '#') {
+          e.preventDefault();
+        }
+        e.stopPropagation();
+        this.classList.toggle("active");
+      }
     }
   });
 });

@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -33,7 +37,7 @@
                     alt="Schools and colleges in Gujarat">
             </div>
             <div class="sector-text">
-                <h2>School &amp; Education Cleaning – Gujarat</h2>
+                <h1>School &amp; Education Cleaning – Gujarat</h1>
                 <p>
                     Gujarat me CBSE schools, coaching institutes aur colleges me clean classrooms aur washrooms
                     bohot important hote hain, especially bachchon ki health ke liye. Regular sanitisation se

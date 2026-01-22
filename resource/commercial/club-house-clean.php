@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -84,7 +88,6 @@
         <div class="cw-methods-inner">
             <div class="cw-methods-grid">
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . 'includes/image/club-house-1.jpg' ?>" alt="Common Areas & Facilities">
                     <h3>Common Areas & Facilities</h3>
                     <p>
                         Deep cleaning and sanitising of lounges, meeting rooms, indoor games areas,
@@ -95,7 +98,6 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . 'includes/image/club-house-2.webp' ?>" alt="Reception & Member Areas">
                     <h3>Reception & Member Areas</h3>
                     <p>
                         Detailed cleaning of reception desks, waiting areas, notice boards, glass panels
@@ -106,7 +108,6 @@
                 </article>
 
                 <article class="cm-card">
-                    <img src="<?php echo BASE_URL . 'includes/image/club-house-3.png' ?>" alt="High-Level, Ventilation & Hard-to-Reach">
                     <h3>High-Level, Ventilation & Hard-to-Reach</h3>
                     <p>
                         Cleaning of high-level lighting, ceiling fans, air-conditioning vents and fixtures

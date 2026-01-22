@@ -5,7 +5,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cleansheen - Cleaning Services</title>
+  
+    <!-- SEO & Metadata -->
+    <?php include_once 'resource/seo_meta.php'; ?>
+    <title><?php echo $seo_title; ?></title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="includes/image/favicon.ico.png" />

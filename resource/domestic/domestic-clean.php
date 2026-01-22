@@ -6,7 +6,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cleansheen - Cleaning Services</title>
+    
+    <!-- SEO & Metadata -->
+    <?php include_once '../seo_meta.php'; ?>
+
+    <title><?php echo $seo_title; ?></title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="<?php echo BASE_URL; ?>includes/image/favicon.ico.png" />
@@ -84,7 +88,7 @@
     <!-- 2.3 Booking steps (4 cards) -->
     <section class="domestic-booking">
         <div class="domestic-booking-inner">
-            <h2>Booking Your Regular Cleaning Service</h2>
+            <h1>Booking Your Regular Cleaning Service</h1>
 
             <div class="domestic-booking-grid">
                 <div class="db-step">
