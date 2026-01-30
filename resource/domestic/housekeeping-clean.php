@@ -40,7 +40,7 @@
         <div class="hk-intro-inner">
             <p>
                 Our housekeeping services provide extra help around the home, taking care of
-                everyday tasks such as laundry, ironing, errands, and light household duties.
+                everyday tasks such as cleaning, errands, and light household duties.
                 Ideal for busy professionals, families, or anyone who needs reliable support
                 to keep their home running smoothly.
             </p>
@@ -54,9 +54,8 @@
             <article class="hk-card">
                 <h1>What Do Our Housekeeping Services Cover?</h1>
                 <p>
-                    Our housekeeping service is flexible and tailored to your needs. Tasks can
-                    include laundry and ironing, changing bed linen, light cleaning and
-                    hoovering, grocery shopping, errands, and general household organisation.
+                    Our housekeeping service is flexible and tailored to your needs.light cleaning and
+                    hoovering, cleaning service, errands, and general household organisation.
                     We focus on the practical day-to-day jobs that make life easier.
                 </p>
             </article>

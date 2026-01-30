@@ -82,7 +82,7 @@
                     </div>
 
                     <!-- Question 2 -->
-                    <div class="accordion-item">
+                    <!-- <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-target="#domestic2">
                                 How are payments made?
@@ -93,7 +93,7 @@
                                 Once the booking is confirmed, we will send you the confirmation over email and will attach the invoice. All our invoices must be paid in full, 48 hours prior to the cleaning session. It can be done by Bank transfer, credit/debit card or PayPal. We accept Visa, Mastercard, Maestro and American Express.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Question 3 -->
                     <div class="accordion-item">
@@ -110,7 +110,7 @@
                     </div>
 
                     <!-- Question 4 -->
-                    <div class="accordion-item">
+                    <!-- <div class="accordion-item">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-target="#domestic4">
                                 What does your insurance cover?
@@ -121,7 +121,7 @@
                                 Damage to your property caused by the cleaner, theft by the cleaner, key and lock replacement and personal injury to the cleaner.
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Question 5 -->
                     <div class="accordion-item">

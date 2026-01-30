@@ -103,7 +103,7 @@
                 <div>
                     <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Flexible Tasks</h4>
-                    <p>Ironing, laundry and regular tasks included.</p>
+                    <p>Everyday home tasks and service included.</p>
                 </div>
                 <div>
                     <div class="os-icon"><i class="fas fa-user-shield"></i></div>
@@ -211,10 +211,10 @@
 
             <div class="eco-oneoff-grid">
                 <div class="eo-card">
-                    <h3>Ironing Only</h3>
+                    <h3>Home Refresh</h3>
                     <p>
-                        Convenient hourly ironing services carried out in your home,
-                        saving time and effort.
+                        Light refresh cleaning for key living areas using eco-friendly
+                        products to restore cleanliness and comfort.
                     </p>
                 </div>
 

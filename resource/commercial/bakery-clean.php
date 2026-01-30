@@ -33,7 +33,7 @@
     <!-- 1. HERO -->
     <section class="cw-hero">
         <div class="cw-hero-overlay">
-            <h1>Backery Cleaning</h1>
+            <h1>Bakery Cleaning</h1>
         </div>
     </section>
 

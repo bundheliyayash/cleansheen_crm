@@ -69,7 +69,7 @@
                 <div>
                     <div class="os-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                     <h4>Flexible Tasks</h4>
-                    <p>Ironing, bed changing and more.</p>
+                    <p>Basic home tasks and more.</p>
                 </div>
                 <div>
                     <div class="os-icon"><i class="fas fa-user-shield"></i></div>

@@ -27,7 +27,7 @@
                             Cleaning</a></li>
                     <li><a href="<?php echo BASE_URL . 'resource/commercial/restaurant-clean.php' ?> ">Restaurant
                             Cleaning Services</a></li>
-                    <li><a href="<?php echo BASE_URL . 'resource/commercial/backery-clean.php' ?> ">Backery Cleaning</a>
+                    <li><a href="<?php echo BASE_URL . 'resource/commercial/bakery-clean.php' ?> ">Backery Cleaning</a>
                     </li>
                     <li><a href="<?php echo BASE_URL . 'resource/commercial/washroom-clean.php' ?> ">Washroom
                             Services</a></li>

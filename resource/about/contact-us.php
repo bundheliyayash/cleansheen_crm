@@ -137,7 +137,7 @@ include '../../config.php';
                         </div>
                         <div class="info-content">
                             <h3>Our Location</h3>
-                            <p>Building No 301, Oberon Business Hub, Behind Monarch, Pal, Gaurav Path Road, Adajan Dn, Surat-395009, Gujarat</p>
+                            <p>301, Oberon Business Hub, Next to Lemon Grass Restaurant, Gaurav Path Road, Pal, Adajan, Surat-394510</p>
                         </div>
                     </div>
 
@@ -168,7 +168,7 @@ include '../../config.php';
                         </div>
                         <div class="info-content">
                             <h3>Working Hours</h3>
-                            <p>Monday - Sunday: 9:00 AM - 7:00 PM<br>
+                            <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>
                         </div>
                     </div>
                 </div>

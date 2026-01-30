@@ -68,8 +68,7 @@
           <p>
             We cater to busy families, professionals, or anyone who wants
             their home to feel like a five-star hotel. In addition to standard
-            cleaning, many customers request ironing, laundry, and bed
-            changing services.
+            cleaning.
           </p>
           <p>
             If you are looking for an ethical, multi-skilled domestic cleaning
