@@ -141,8 +141,7 @@
       </div>
 
       <!-- 2) VIDEO ROW (2 simple cards) -->
-      <div class="video-row">
-        <!-- Video 1 -->
+      <!-- <div class="video-row">
         <div class="video-card">
           <div class="video-wrapper">
             <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg' ?>">
@@ -158,7 +157,6 @@
           </div>
         </div>
 
-        <!-- Video 2 -->
         <div class="video-card">
           <div class="video-wrapper">
             <video poster="<?php echo BASE_URL . 'includes/image/main1.jpg' ?>">
@@ -173,6 +171,41 @@
             <p>Temple Trustee, Vadodara</p>
           </div>
         </div>
+      </div> -->
+      <div class="team-section">
+        <div class="team-inner">
+
+          <h2>Our Professional Team</h2>
+          <p class="team-intro">
+            Behind every clean space is a trained and reliable team. Our cleaning
+            professionals are carefully selected, trained, and supervised to
+            deliver consistent quality across every service.
+          </p>
+          <div class="team-photo-wrap">
+            <img src="<?php echo BASE_URL . '/includes/image/team.jpeg' ?>"
+              alt="Our professional cleaning team"
+              class="team-photo">
+          </div>
+
+          <div class="team-features">
+            <div class="team-feature">
+              <h4>Trained & Experienced</h4>
+              <p>Staff trained in safe, effective, and service-specific cleaning methods.</p>
+            </div>
+
+            <div class="team-feature">
+              <h4>Verified & Trusted</h4>
+              <p>Background-checked team members you can confidently welcome.</p>
+            </div>
+
+            <div class="team-feature">
+              <h4>Uniformed & Supervised</h4>
+              <p>Clearly identified staff supported by on-site supervision.</p>
+            </div>
+          </div>
+
+        </div>
       </div>
+
     </div>
   </section>

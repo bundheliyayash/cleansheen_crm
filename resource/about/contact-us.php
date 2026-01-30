@@ -1,91 +1,43 @@
 <?php
 include '../../config.php';
 
-// use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
-// // ------------------ DB CONFIG ------------------
-// $host = "localhost:3307";
-// $db   = "cleansheen_crm";
-// $user = "root";
-// $pass = "";
+$success = '';
+$error = '';
 
-// $conn = new mysqli($host, $user, $pass, $db);
-// if ($conn->connect_error) {
-//     die("DB Connection failed");
-// }
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-// // ------------------ FORM SUBMIT ------------------
-// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    function clean($data)
+    {
+        return str_replace(["\n", "\r"], '', trim($data));
+    }
 
-//     $first_name   = $_POST['first_name'];
-//     $last_name    = $_POST['last_name'];
-//     $email        = $_POST['email'];
-//     $phone        = $_POST['phone'];
-//     $service_date = $_POST['service_date'];
-//     $postcode     = $_POST['postcode'];
-//     $address1     = $_POST['address1'];
-//     $address2     = $_POST['address2'];
-//     $city         = $_POST['city'];
-//     $instructions = $_POST['instructions'];
+    $row = [
+        date('Y-m-d H:i:s'),
+        clean($_POST['first_name'] ?? ''),
+        clean($_POST['last_name'] ?? ''),
+        clean($_POST['email'] ?? ''),
+        clean($_POST['phone'] ?? ''),
+        clean($_POST['service_type'] ?? ''),
+        clean($_POST['service_date'] ?? ''),
+        clean($_POST['address1'] ?? '') . ' ' . clean($_POST['address2'] ?? ''),
+        clean($_POST['city'] ?? ''),
+        clean($_POST['postcode'] ?? ''),
+        clean($_POST['instructions'] ?? ''),
+        $_SERVER['REMOTE_ADDR']
+    ];
 
-//     // -------- SAVE TO DB --------
-//     $stmt = $conn->prepare("
-//         INSERT INTO contact_enquiries 
-//         (first_name, last_name, email, phone, service_date, postcode, address1, address2, city, instructions)
-//         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-//     ");
-//     $stmt->bind_param(
-//         "ssssssssss",
-//         $first_name,
-//         $last_name,
-//         $email,
-//         $phone,
-//         $service_date,
-//         $postcode,
-//         $address1,
-//         $address2,
-//         $city,
-//         $instructions
-//     );
-//     $stmt->execute();
+    $file = __DIR__ . '/../../data/contact_leads.csv';
 
-//     // -------- SEND EMAIL (SMTP) --------
-//     require 'PHPMailer/PHPMailer.php';
-//     require 'PHPMailer/SMTP.php';
-//     require 'PHPMailer/Exception.php';
+    if ($fp = fopen($file, 'a')) {
+        fputcsv($fp, $row);
+        fclose($fp);
+        $success = "Thank you! Your details have been submitted.";
+    } else {
+        $error = "Unable to save data. Please try again.";
+    }
+}
 
-//     $mail = new PHPMailer(true);
-//     try {
-//         $mail->isSMTP();
-//         $mail->Host       = 'mail.cleansheen.in';
-//         $mail->SMTPAuth   = true;
-//         $mail->Username   = 'noreply@cleansheen.in';
-//         $mail->Password   = 'EMAIL_PASSWORD_HERE';
-//         $mail->SMTPSecure = 'tls';
-//         $mail->Port       = 587;
 
-//         $mail->setFrom('noreply@cleansheen.in', 'Cleansheen');
-//         $mail->addAddress('support@cleansheen.in');
-//         $mail->addReplyTo($email, $first_name);
-
-//         $mail->isHTML(true);
-//         $mail->Subject = 'New Contact Enquiry';
-//         $mail->Body    = "
-//             <h3>New Contact Request</h3>
-//             <p><b>Name:</b> $first_name $last_name</p>
-//             <p><b>Email:</b> $email</p>
-//             <p><b>Phone:</b> $phone</p>
-//             <p><b>Service Date:</b> $service_date</p>
-//             <p><b>Address:</b> $address1, $address2, $city - $postcode</p>
-//             <p><b>Instructions:</b><br>$instructions</p>
-//         ";
-
-//         $mail->send();
-//         $success = "Thank you! Your enquiry has been sent.";
-//     } catch (Exception $e) {
-//         $error = "Mail could not be sent.";
-//     }
-// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
